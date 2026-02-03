@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "timestamp": "2026-02-03T12:22:02.8509715Z",
+    "abelRef": "",
+    "status": "failed",
+    "errorMessage": "An invalid or illegal selector was specified; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception"
+  },
+  {
+    "timestamp": "2026-02-03T12:20:37.2679370Z",
+    "abelRef": "",
+    "status": "failed",
+    "errorMessage": "No frame element found with name or id Hovedmeny"
+  },
+  {
+    "timestamp": "2026-02-03T12:16:04.2203800Z",
+    "abelRef": "78599NOR",
+    "status": "success",
+    "errorMessage": null
+  }
+]
