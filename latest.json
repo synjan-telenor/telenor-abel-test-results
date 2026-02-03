@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-02-03T13:17:41.7106341Z",
-  "abelRef": "",
-  "status": "failed",
-  "errorMessage": "Timed out after 20 seconds"
+  "timestamp": "2026-02-03T13:19:31.7652698Z",
+  "abelRef": "78604NOR",
+  "status": "success",
+  "errorMessage": null
 }
