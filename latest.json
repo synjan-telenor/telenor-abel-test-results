@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-02-04T07:42:35.8701202Z",
-  "abelRef": "",
-  "status": "failed",
-  "errorMessage": "An invalid or illegal selector was specified; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception"
+  "timestamp": "2026-02-04T07:44:22.4010265Z",
+  "abelRef": "78609NOR",
+  "status": "success",
+  "errorMessage": null
 }
