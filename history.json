@@ -1,5 +1,11 @@
 [
   {
+    "timestamp": "2026-02-04T07:42:35.8701202Z",
+    "abelRef": "",
+    "status": "failed",
+    "errorMessage": "An invalid or illegal selector was specified; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception"
+  },
+  {
     "timestamp": "2026-02-04T07:23:04.6274946Z",
     "abelRef": "",
     "status": "failed",

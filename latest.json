@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-02-04T07:23:04.6274946Z",
+  "timestamp": "2026-02-04T07:42:35.8701202Z",
   "abelRef": "",
   "status": "failed",
-  "errorMessage": "Timed out after 20 seconds"
+  "errorMessage": "An invalid or illegal selector was specified; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception"
 }
