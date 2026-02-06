@@ -1,6 +1,7 @@
 {
-  "timestamp": "2026-02-06T14:04:46.8529542Z",
-  "abelRef": "78614NOR",
+  "timestamp": "2026-02-06T14:30:23.6980092Z",
+  "description": "Opprett Nordic Connect-ordre med postal-onnet-singlelocation scenario",
+  "abelRef": "78615NOR",
   "status": "success",
   "errorMessage": null
 }
