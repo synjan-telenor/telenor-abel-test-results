@@ -1,5 +1,14 @@
 [
   {
+    "timestamp": "2026-02-12T10:28:05.0693660Z",
+    "description": "Nordic Connect nybestilling for SALMAR ASA \u2014 NORDIC CONNECT FIBER 10M (postal-onnet-singlelocation)",
+    "abelRef": "",
+    "status": "failed",
+    "errorMessage": "No frame element found with name or id Hovedmeny",
+    "screenshotPath": "C:\\DEV\\telenor-abel-test-results\\screenshots\\20260212_102916_failure.png",
+    "domCapturePath": "C:\\DEV\\telenor-abel-test-results\\dom\\20260212_102925_failure.json"
+  },
+  {
     "timestamp": "2026-02-12T10:25:15.4309733Z",
     "description": "Nordic Connect nybestilling for SALMAR ASA \u2014 NORDIC CONNECT FIBER 10M (postal-onnet-singlelocation)",
     "abelRef": "",
