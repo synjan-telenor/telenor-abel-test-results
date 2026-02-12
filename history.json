@@ -1,5 +1,12 @@
 [
   {
+    "timestamp": "2026-02-12T08:11:24.9669867Z",
+    "description": "Nordic Connect nybestilling for SALMAR ASA \u2014 NORDIC CONNECT FIBER 10M (postal-onnet-singlelocation)",
+    "abelRef": "",
+    "status": "failed",
+    "errorMessage": "An invalid or illegal selector was specified; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception"
+  },
+  {
     "timestamp": "2026-02-11T14:44:40.9283697Z",
     "description": "Nordic Connect nybestilling for SALMAR ASA \u2014 NORDIC CONNECT FIBER 10M (postal-onnet-singlelocation)",
     "abelRef": "78624NOR",
