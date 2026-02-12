@@ -1,5 +1,14 @@
 [
   {
+    "timestamp": "2026-02-12T10:40:27.5424141Z",
+    "description": "Nordic Connect nybestilling for SALMAR ASA \u2014 NORDIC CONNECT FIBER 10M (postal-onnet-singlelocation)",
+    "abelRef": "78631NOR",
+    "status": "success",
+    "errorMessage": null,
+    "screenshotPath": null,
+    "domCapturePath": null
+  },
+  {
     "timestamp": "2026-02-12T10:28:05.0693660Z",
     "description": "Nordic Connect nybestilling for SALMAR ASA \u2014 NORDIC CONNECT FIBER 10M (postal-onnet-singlelocation)",
     "abelRef": "",
