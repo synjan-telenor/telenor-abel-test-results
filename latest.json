@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-02-12T14:42:12.5921690Z",
+  "timestamp": "2026-02-12T14:47:15.9758245Z",
   "description": "Nordic Connect nybestilling for SALMAR ASA \u2014 NORDIC CONNECT FIBER 10M (postal-onnet-singlelocation)",
-  "abelRef": "",
-  "status": "failed",
-  "errorMessage": "The HTTP request to the remote WebDriver server for URL http://localhost:63431/session/ac846621-1336-4af9-9311-b02ecad16990/execute/sync timed out after 60 seconds.",
+  "abelRef": "78643NOR",
+  "status": "success",
+  "errorMessage": null,
   "screenshotPath": null,
   "domCapturePath": null
 }
