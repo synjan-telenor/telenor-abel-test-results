@@ -1,7 +1,9 @@
 {
-  "timestamp": "2026-02-12T09:00:19.6648812Z",
+  "timestamp": "2026-02-12T09:55:29.1459821Z",
   "description": "Nordic Connect nybestilling for SALMAR ASA \u2014 NORDIC CONNECT FIBER 10M (postal-onnet-singlelocation)",
-  "abelRef": "78627NOR",
-  "status": "success",
-  "errorMessage": null
+  "abelRef": "",
+  "status": "failed",
+  "errorMessage": "Timed out after 20 seconds",
+  "screenshotPath": "C:\\DEV\\telenor-abel-test-results\\screenshots\\20260212_095642_failure.png",
+  "domCapturePath": "C:\\DEV\\telenor-abel-test-results\\dom\\20260212_095642_failure.json"
 }

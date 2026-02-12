@@ -1,149 +1,200 @@
 [
   {
+    "timestamp": "2026-02-12T09:55:29.1459821Z",
+    "description": "Nordic Connect nybestilling for SALMAR ASA \u2014 NORDIC CONNECT FIBER 10M (postal-onnet-singlelocation)",
+    "abelRef": "",
+    "status": "failed",
+    "errorMessage": "Timed out after 20 seconds",
+    "screenshotPath": "C:\\DEV\\telenor-abel-test-results\\screenshots\\20260212_095642_failure.png",
+    "domCapturePath": "C:\\DEV\\telenor-abel-test-results\\dom\\20260212_095642_failure.json"
+  },
+  {
     "timestamp": "2026-02-12T09:00:19.6648812Z",
     "description": "Nordic Connect nybestilling for SALMAR ASA \u2014 NORDIC CONNECT FIBER 10M (postal-onnet-singlelocation)",
     "abelRef": "78627NOR",
     "status": "success",
-    "errorMessage": null
+    "errorMessage": null,
+    "screenshotPath": null,
+    "domCapturePath": null
   },
   {
     "timestamp": "2026-02-12T08:13:24.1218869Z",
     "description": "Nordic Connect nybestilling for SALMAR ASA \u2014 NORDIC CONNECT FIBER 10M (postal-onnet-singlelocation)",
     "abelRef": "",
     "status": "failed",
-    "errorMessage": "Timed out after 20 seconds"
+    "errorMessage": "Timed out after 20 seconds",
+    "screenshotPath": null,
+    "domCapturePath": null
   },
   {
     "timestamp": "2026-02-12T08:11:24.9669867Z",
     "description": "Nordic Connect nybestilling for SALMAR ASA \u2014 NORDIC CONNECT FIBER 10M (postal-onnet-singlelocation)",
     "abelRef": "",
     "status": "failed",
-    "errorMessage": "An invalid or illegal selector was specified; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception"
+    "errorMessage": "An invalid or illegal selector was specified; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception",
+    "screenshotPath": null,
+    "domCapturePath": null
   },
   {
     "timestamp": "2026-02-11T14:44:40.9283697Z",
     "description": "Nordic Connect nybestilling for SALMAR ASA \u2014 NORDIC CONNECT FIBER 10M (postal-onnet-singlelocation)",
     "abelRef": "78624NOR",
     "status": "success",
-    "errorMessage": null
+    "errorMessage": null,
+    "screenshotPath": null,
+    "domCapturePath": null
   },
   {
     "timestamp": "2026-02-11T10:03:28.0607860Z",
     "description": "Nordic Connect nybestilling for SALMAR ASA \u2014 NORDIC CONNECT FIBER 10M (postal-onnet-singlelocation)",
     "abelRef": "78622NOR",
     "status": "success",
-    "errorMessage": null
+    "errorMessage": null,
+    "screenshotPath": null,
+    "domCapturePath": null
   },
   {
     "timestamp": "2026-02-11T09:34:42.7355030Z",
     "description": "Opprett Nordic Connect-ordre med postal-onnet-singlelocation scenario",
     "abelRef": "78621NOR",
     "status": "success",
-    "errorMessage": null
+    "errorMessage": null,
+    "screenshotPath": null,
+    "domCapturePath": null
   },
   {
     "timestamp": "2026-02-06T14:30:23.6980092Z",
     "description": "Opprett Nordic Connect-ordre med postal-onnet-singlelocation scenario",
     "abelRef": "78615NOR",
     "status": "success",
-    "errorMessage": null
+    "errorMessage": null,
+    "screenshotPath": null,
+    "domCapturePath": null
   },
   {
     "timestamp": "2026-02-06T14:04:46.8529542Z",
     "description": "",
     "abelRef": "78614NOR",
     "status": "success",
-    "errorMessage": null
+    "errorMessage": null,
+    "screenshotPath": null,
+    "domCapturePath": null
   },
   {
     "timestamp": "2026-02-04T07:44:22.4010265Z",
     "description": "",
     "abelRef": "78609NOR",
     "status": "success",
-    "errorMessage": null
+    "errorMessage": null,
+    "screenshotPath": null,
+    "domCapturePath": null
   },
   {
     "timestamp": "2026-02-04T07:42:35.8701202Z",
     "description": "",
     "abelRef": "",
     "status": "failed",
-    "errorMessage": "An invalid or illegal selector was specified; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception"
+    "errorMessage": "An invalid or illegal selector was specified; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception",
+    "screenshotPath": null,
+    "domCapturePath": null
   },
   {
     "timestamp": "2026-02-04T07:23:04.6274946Z",
     "description": "",
     "abelRef": "",
     "status": "failed",
-    "errorMessage": "Timed out after 20 seconds"
+    "errorMessage": "Timed out after 20 seconds",
+    "screenshotPath": null,
+    "domCapturePath": null
   },
   {
     "timestamp": "2026-02-03T13:37:26.4432590Z",
     "description": "",
     "abelRef": "78607NOR",
     "status": "success",
-    "errorMessage": null
+    "errorMessage": null,
+    "screenshotPath": null,
+    "domCapturePath": null
   },
   {
     "timestamp": "2026-02-03T13:30:36.2226532Z",
     "description": "",
     "abelRef": "78606NOR",
     "status": "success",
-    "errorMessage": null
+    "errorMessage": null,
+    "screenshotPath": null,
+    "domCapturePath": null
   },
   {
     "timestamp": "2026-02-03T13:24:43.3680039Z",
     "description": "",
     "abelRef": "78605NOR",
     "status": "success",
-    "errorMessage": null
+    "errorMessage": null,
+    "screenshotPath": null,
+    "domCapturePath": null
   },
   {
     "timestamp": "2026-02-03T13:19:31.7652698Z",
     "description": "",
     "abelRef": "78604NOR",
     "status": "success",
-    "errorMessage": null
+    "errorMessage": null,
+    "screenshotPath": null,
+    "domCapturePath": null
   },
   {
     "timestamp": "2026-02-03T13:17:41.7106341Z",
     "description": "",
     "abelRef": "",
     "status": "failed",
-    "errorMessage": "Timed out after 20 seconds"
+    "errorMessage": "Timed out after 20 seconds",
+    "screenshotPath": null,
+    "domCapturePath": null
   },
   {
     "timestamp": "2026-02-03T13:07:55.5161759Z",
     "description": "",
     "abelRef": "78602NOR",
     "status": "success",
-    "errorMessage": null
+    "errorMessage": null,
+    "screenshotPath": null,
+    "domCapturePath": null
   },
   {
     "timestamp": "2026-02-03T12:57:57.5611907Z",
     "description": "",
     "abelRef": "78601NOR",
     "status": "success",
-    "errorMessage": null
+    "errorMessage": null,
+    "screenshotPath": null,
+    "domCapturePath": null
   },
   {
     "timestamp": "2026-02-03T12:22:02.8509715Z",
     "description": "",
     "abelRef": "",
     "status": "failed",
-    "errorMessage": "An invalid or illegal selector was specified; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception"
+    "errorMessage": "An invalid or illegal selector was specified; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception",
+    "screenshotPath": null,
+    "domCapturePath": null
   },
   {
     "timestamp": "2026-02-03T12:20:37.2679370Z",
     "description": "",
     "abelRef": "",
     "status": "failed",
-    "errorMessage": "No frame element found with name or id Hovedmeny"
+    "errorMessage": "No frame element found with name or id Hovedmeny",
+    "screenshotPath": null,
+    "domCapturePath": null
   },
   {
     "timestamp": "2026-02-03T12:16:04.2203800Z",
     "description": "",
     "abelRef": "78599NOR",
     "status": "success",
-    "errorMessage": null
+    "errorMessage": null,
+    "screenshotPath": null,
+    "domCapturePath": null
   }
 ]
