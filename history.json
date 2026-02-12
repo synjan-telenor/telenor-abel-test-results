@@ -1,5 +1,23 @@
 [
   {
+    "timestamp": "2026-02-12T15:02:06.0177159Z",
+    "description": "Nordic Connect nybestilling for SALMAR ASA \u2014 NORDIC CONNECT FIBER 10M (postal-onnet-singlelocation)",
+    "abelRef": "78646NOR",
+    "status": "success",
+    "errorMessage": null,
+    "screenshotPath": null,
+    "domCapturePath": null
+  },
+  {
+    "timestamp": "2026-02-12T14:56:29.0427102Z",
+    "description": "Nordic Connect nybestilling for SALMAR ASA \u2014 NORDIC CONNECT FIBER 10M (postal-onnet-singlelocation)",
+    "abelRef": "",
+    "status": "failed",
+    "errorMessage": "The HTTP request to the remote WebDriver server for URL http://localhost:52340/session/da6518c4-a161-42d3-ae9e-2825c5f64dea/element timed out after 60 seconds.",
+    "screenshotPath": null,
+    "domCapturePath": null
+  },
+  {
     "timestamp": "2026-02-12T14:47:15.9758245Z",
     "description": "Nordic Connect nybestilling for SALMAR ASA \u2014 NORDIC CONNECT FIBER 10M (postal-onnet-singlelocation)",
     "abelRef": "78643NOR",
