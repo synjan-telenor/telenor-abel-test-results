@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-02-12T09:57:49.6126252Z",
+  "timestamp": "2026-02-12T10:00:38.2564477Z",
   "description": "Nordic Connect nybestilling for SALMAR ASA \u2014 NORDIC CONNECT FIBER 10M (postal-onnet-singlelocation)",
   "abelRef": "",
   "status": "failed",
-  "errorMessage": "An invalid or illegal selector was specified; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception",
-  "screenshotPath": "C:\\DEV\\telenor-abel-test-results\\screenshots\\20260212_095938_failure.png",
-  "domCapturePath": "C:\\DEV\\telenor-abel-test-results\\dom\\20260212_095938_failure.json"
+  "errorMessage": "Timed out after 20 seconds",
+  "screenshotPath": "C:\\DEV\\telenor-abel-test-results\\screenshots\\20260212_100152_failure.png",
+  "domCapturePath": "C:\\DEV\\telenor-abel-test-results\\dom\\20260212_100153_failure.json"
 }
