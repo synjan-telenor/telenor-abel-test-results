@@ -1,0 +1,4 @@
+{
+  "frames": [],
+  "html": "<HTML><HEAD><TITLE>Viktig info ang. sertifikat i Abel</TITLE>\r\n<META content=IE=edge http-equiv=X-UA-Compatible>\r\n<STYLE>\r\n\t body {\r\n\t\t background: rgba(154, 194, 204, 1);\r\n\t\t font-family: Calibri;\r\n\t }\r\n\r\n\t h1 {\r\n\t\t font-family: Cambria;\r\n\t }\r\n\r\n\t #content {\r\n\t\t margin: 25px;\r\n\t\t background: rgba(254, 246, 221, 1);\r\n\t\t padding: 10px 15px ;\r\n\t }\r\n\r\n\t p {\r\n\t\t font-size: 18px;\r\n\t }\r\n\t</STYLE>\r\n</HEAD>\r\n<BODY><SECTION id=content>\r\n<H1>Viktig info ang. sertifikat i Abel! </H1>\r\n<P>Grunnet systemendring må alle brukere i Abel fornye installert sertifikat. Nytt sertifikat bestilles i Matrix eller gjennom lokal admin for brukere utenfor Telenor. </P>\r\n<P>Lenke til Matrix: <A href=\"https://matrix.telenor.no/sp?id=sc_cat_item&amp;sys_id=a97a2266d8f36fc03eaad198ad245c5c\">System Access - IT Support</A> </P></SECTION></BODY></HTML>"
+}
