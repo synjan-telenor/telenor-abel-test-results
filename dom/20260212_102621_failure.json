@@ -1,0 +1,22 @@
+{
+  "frames": [
+    {
+      "error": "TypeError: Unable to get property 'outerHTML' of undefined or null reference"
+    },
+    {
+      "error": "TypeError: Unable to get property 'outerHTML' of undefined or null reference"
+    },
+    {
+      "frames": [],
+      "html": "<HTML><HEAD></HEAD>\r\n<BODY></BODY></HTML>"
+    },
+    {
+      "error": "TypeError: Unable to get property 'outerHTML' of undefined or null reference"
+    },
+    {
+      "frames": [],
+      "html": "<HTML><HEAD></HEAD>\r\n<BODY></BODY></HTML>"
+    }
+  ],
+  "html": "<HTML><HEAD id=Head1><TITLE>Abel</TITLE>\r\n<SCRIPT language=javascript>\r\n\r\n        var idleTime = 0; // The time in minutes since the user was last active\r\n        var timeoutLimitInMin = 60; // minutes\r\n\r\n        function incrementIdleTime() {\r\n            idleTime++;\r\n\r\n            if (idleTime >= timeoutLimitInMin) {\r\n                window.location.href = '/niw/Logout.aspx'; // Log out the user\r\n            }\r\n        }\r\n\r\n        function resetIdleTime() {\r\n            idleTime = 0;\r\n        }\r\n\r\n        function addEvent(element, event, handler) {\r\n            if (element.addEventListener) {\r\n                // For modern browsers\r\n                element.addEventListener(event, handler, false);\r\n            } else if (element.attachEvent) {\r\n                // For IE8 and earlier\r\n                element.attachEvent('on' + event, handler);\r\n            } else {\r\n                // Fallback for older browsers (not common)\r\n                element['on' + event] = handler;\r\n            }\r\n        }\r\n\r\n        function subscribeToEvents() {\r\n            addEvent(document, 'mousemove', resetIdleTime);\r\n            addEvent(document, 'mouseover', resetIdleTime);\r\n            addEvent(document, 'mousedown', resetIdleTime);\r\n            addEvent(document, 'mouseup', resetIdleTime);\r\n            addEvent(document, 'click', resetIdleTime);\r\n            addEvent(document, 'keypress', resetIdleTime);\r\n\r\n            // Increment the idle time counter every minute\r\n            setInterval(incrementIdleTime, 60 * 1000);\r\n        }\r\n\r\n        window.onload = subscribeToEvents;\r\n    </SCRIPT>\r\n\r\n<FORM name=frmStart id=frmStart action=./start.aspx method=post><INPUT name=__VIEWSTATE id=__VIEWSTATE type=hidden value=OWLB9S5Ms3Vj7c0s7TzpdM+BkpPKcJDpYpVlpX4syWfRKR0BN17tz4cDaWtuMrrF6UtI+53QH7J0xilSsfljRtyFTEbfEh1Our6QwTbJbks=>\r\n<SCRIPT>var info=window.open('info.htm', 'timelistevindu', 'top=200,left=200,width=700,height=400,status=no,resizable=yes,scrollbars=yes');info.focus();</SCRIPT>\r\n<INPUT name=__VIEWSTATEGENERATOR id=__VIEWSTATEGENERATOR type=hidden value=3B2316C5></FORM></HEAD><FRAMESET id=STARTFRAMESET cols=218,* border=false frameBorder=0 frameSpacing=0><FRAME name=Hovedmeny src=\"/niw/Hovedmeny.aspx\" noResize target=\"Hovedside\"><FRAMESET id=Hovedframe rows=60,*,0,0 border=0 frameBorder=0 frameSpacing=0><FRAME name=Status src=\"/niw/Status.aspx?updatehovedside=J\" target=\"Hovedside\"><FRAME name=Hovedside><FRAME name=Funksjoner src=\"funksjoner.aspx\" noResize scrolling=no target=\"main\"><FRAME name=Nodecalc noResize scrolling=no target=\"main\"></FRAMESET><NOFRAMES></NOFRAMES></FRAMESET></HTML>"
+}
