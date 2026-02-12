@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-02-12T08:11:24.9669867Z",
+  "timestamp": "2026-02-12T08:13:24.1218869Z",
   "description": "Nordic Connect nybestilling for SALMAR ASA \u2014 NORDIC CONNECT FIBER 10M (postal-onnet-singlelocation)",
   "abelRef": "",
   "status": "failed",
-  "errorMessage": "An invalid or illegal selector was specified; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception"
+  "errorMessage": "Timed out after 20 seconds"
 }
