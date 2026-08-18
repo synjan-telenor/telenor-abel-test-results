@@ -1,0 +1,7 @@
+{
+  "fiber-utbygging":      { "status": "unknown", "verifiedAt": null, "verifiedBy": null },
+  "fiber-standard":       { "status": "unknown", "verifiedAt": null, "verifiedBy": null },
+  "fiber-produktmatrise": { "status": "unknown", "verifiedAt": null, "verifiedBy": null },
+  "fiber-avbryt":         { "status": "unknown", "verifiedAt": null, "verifiedBy": null },
+  "fiber-snff-lukking":   { "status": "unknown", "verifiedAt": null, "verifiedBy": null }
+}
