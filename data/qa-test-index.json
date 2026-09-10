@@ -1,1 +1,572 @@
-{"a11y":{"activity-log.a11y":["A11y — Kundelogg passerer WCAG 2.1 AA-scan"],"customer-routes.a11y":[],"header-search.a11y":["Header-søk i initial tilstand passerer WCAG 2.1 AA-scan","Header-søk med avansert-skjema åpent passerer WCAG 2.1 AA-scan"],"keyboard-nav":["Tab-traversering fra forsiden — første 15 fokusable elementer","IMEI-modalen kan åpnes og lukkes med tastatur"],"pages.a11y":["forsiden passerer WCAG 2.1 AA-scan","forsidens header har stabil ARIA-struktur","Ordresøk passerer WCAG 2.1 AA-scan"],"top-level-routes.a11y":[],"wizard-steps.a11y":["Steg 1 (Installasjonsadresse) passerer WCAG 2.1 AA-scan","Steg 3 (Velg abonnement) passerer WCAG 2.1 AA-scan","Steg 12 (Oppsummering) passerer WCAG 2.1 AA-scan"]},"demo":{"bug-1627-allzeros-500":["Bug #1627 — repro av all-zeros 500-feil"],"bug-1628-missing-headers":["Bug #1628 — repro av manglende sikkerhetsheadere"],"full-tour":["full applikasjonstur (read-only)"],"silent-fallback-bypass":["Demo: silent fallback bypass i kurtDecrypt"],"wizard-and-completion":["E2E demo — wizard + post-bestilling-fullføring"],"wizard-godkjenning":["Wizard demo — full happy-path med caption-overlays for QA-godkjenning"]},"error-paths":{"advanced-search-errors":[],"customer-routes-errors":[],"dealer-dashboard-errors":["siden krasjer ikke når /api/dealer/allUsersWithStatus returnerer 500"],"header-search-errors":[],"header-search-recovery":["bruker kan retry etter 500 og navigere til kunde"],"home-errors":["Forsiden krasjer ikke når /api/notification* returnerer 500","Forsiden krasjer ikke når /api/user* returnerer 500","Forsiden krasjer ikke når notification + customer-search APIer timer ut samtidig"],"top-level-routes-errors":[],"wizard-errors":["Steg 3 håndterer 500 fra /broadband-technologies uten å crashe","Wizard krasjer ikke når alle /api/*-kall timer ut etter start","Bestill-klikk håndterer 500 fra ordre-endpoint uten å crashe"]},"exploration":{"approve-credit-task":[],"bestill-with-trace":["Bestill med trace-capture for diagnostisk analyse"],"cancel-order-omt":["OMT — kanseller ordre + sjekk respons"],"cancel-order-tasks":[],"cancel-with-trace":["Avbryt med trace-capture for sammenligning"],"capture-order-payloads":["Capture order-payloads for direct API replay"],"capture-traces":["Trace-capture — wizard-flyt fra start til Steg 11 (Avbryt)"],"complete-order-live":[],"complete-order-omt":["OMT — les system-tasks for ordre"],"complete-snff-task":[],"complete-tor-task":[],"dump-response-headers":["Dump headers fra OneView API-responser"],"find-new-tbb-subscription":["OMT — status etter LOS-retry, prøv cancel"],"grafana-api-probe":["Grafana API — finn Tempo datasource"],"healthcheck":["naviger gjennom stabile ruter og samle runtime-issues"],"inject-traceparent":["Inject traceparent — verifiser at OneView propagerer til Tempo"],"inselo-auth":["Inselo — Auth0 login + lagre storageState"],"inselo-dispatch":[],"inselo-find-order":[],"inselo-inspect-preview":[],"inselo-reach-probe":["Inselo — reachability/auth-probe"],"inspect-omt-order":[],"list-subscriptions":["Liste abonnementer på test-kunden"],"list-tbb-subscriptions":["List TBB subscription-IDer via sausage-klikk"],"los-simulator-verify":["losSimulator — body matcher Toves Fiber-template"],"omt-drill-pending-tasks":[],"omt-dump-params":[],"omt-messages-dump":[],"omt-order-url":[],"omt-params-inspect":[],"order-completer-probe":[],"orderhub-auth":["SNFF OrderHub — SAML login + lagre storageState"],"probe-fwa-availability":["probe broadband-technologies for FWA-AVAILABLE"],"probe-h0101-fiber-far":["PROBE — finn H0101-FAR med Fiber tilgjengelig"],"probe-known-fiber-farid":["bekreft kjent fiber-FAR-ID"],"probe-offnet-address":["test-addresses — off-net FAR-kandidater"],"probe-offnet-entry":["kunde-oversikt — off-net bestillingsinngang?"],"probe-offnet-wizard":["A: off-net Steg 3 — full dump","B: Avansert søk på Steg 1"],"probe-regaddr-select":["Steg1 — hvordan velge registrert adresse"],"probe-regaddr-select2":["Steg1 — enkelt kort-klikk + vent"],"probe-salesforce-access":["Salesforce — kan åpne kjent Case-record"],"probe-salesforce-order-lookup":["probe SF order lookup"],"probe-steg1-cards":["Steg1 — registrerte adresse-kort"],"probe-step3-products":[],"probe-tbb-wizard":["probe TBB wizard structure"],"probe-wizard-12-steps":["probe wizard 12-stegs flyt (m/ Redundansetype)"],"retry-credit-task":[],"retry-los-task":[],"retry-task":[],"search-ui-probe":["hva sender frontenden ved side-load og input?"],"send-los-final-response":["LOS — send final-respons (losprovresponse)"],"snff-orderhub-reach":["SNFF OrderHub — reachability/auth-probe"],"tbb-cancel-testdata":["TBB avvik-testdata — bestill og kanseller (setter Cancellation_Reason__c)"],"tbb-order-confirmation-testdata":["TBB order confirmation testdata — bestill + fullfør OMT (trigger OC_TBB_Order_Confirmation)"],"test-addresses-auth-probe":["Auth-verifisering mot Test Addresses-tjenesten"],"test-addresses-find-farid":["TestAddressesPage — finner gyldig FAR-ID","TestAddressesPage — kan hente flere FAR-IDer"],"test-addresses-grid":["grid-search test-addresses (Source × ResponseCode)"],"validate-call-investigation":["Investigate why validate/new is called twice"],"woc-explore-workorder":[],"woc-locate-workorder":[],"woc-reach-probe":["WOC — reachability/auth-probe"],"woc-send-closure":[]},"navigation":{"main-navigation":["bruker kan navigere fra forside til ordresøk og tilbake via header","hamburger-menyen viser stabile menypunkter"],"menu-feature-flags":[]},"pairwise":{"wizard-pairwise":[]},"security":{"authorization-idor":["IDOR — kan vi nå andre kunders data via URL-manipulasjon?"],"business-logic-abuse":["Business-logic abuse — uventede payloads og method-tampering"],"csp-enforcement":["CSP — inline script og fremmed origin blir blokkert"],"csrf":["CSRF — state-endrende endpoints krever Origin/Referer"],"direct-api-access":["Direkte API — kall endpoints uten UI"],"header-injection":["Header-injection — CRLF i URL/query gir ikke injicerte headere"],"headers-and-cookies":["HTTP response headers mot ASVS L2-baseline","Cookie-flags på auth- og transport-cookies","Ingen mixed content (http-ressurser på https-side)","Web Storage — hvilke nøkler er eksponert"],"info-disclosure":["Info-disclosure — kjente paths som kan lekke info"],"input-fuzzing-change-order-contact":["Change-order Contact-steg — input-fuzzing"],"input-fuzzing-customer-search":["Customer overview-søk — input-fuzzing med 25 payloads"],"input-fuzzing-mutations":["Header-søk — mutation-fuzzing med"],"input-fuzzing-wizard-contact":["Wizard Steg 10 kontakt-felter — input-fuzzing"],"input-fuzzing-wizard-farid":["Wizard Steg 1 FAR-ID-input — fuzzing"],"input-fuzzing-wizard-tbb-contact":["Wizard Steg 10 TBB-kontakt-felter — input-fuzzing"],"input-fuzzing":["Header-søk — input-fuzzing med 25 payloads"],"json-dos":["JSON DoS — BE håndterer monster-payloads gracefully"],"lighthouse-equivalent":["Lighthouse-equivalent — sikkerhet/best-practices-audit"],"open-redirect-and-hpp":["Open redirect — kan ekstern URL injeksjon i query-param trigge redirect?","HPP — håndteres dupliserte query-params trygt?"],"property-based-fuzz":[],"race-conditions":["Race — 10 parallelle validate-kall returnerer deterministisk","Race — parallelle simpleSearch returnerer konsistent"],"rate-limiting":["Rate-limit — hvor mange parallel-requests tåler simpleSearch?"],"route-fuzzing":["Dynamiske ruter — URL-fuzzing med ondsinnet payload-segment"],"session-integrity":["Session — cookies og storage inneholder ikke sensitive plain-text","Session — cookies brukes ikke utenfor /oneview/-paths"],"storage-deep-dive":["IndexedDB — sensitive data?","Cache API — er API-responses med PII cachet?","Service Workers — registrert og scope"],"tls-audit":["TLS-audit — protokoll, sertifikat og gyldighet"],"type-juggling":["Type-juggling — schema avviser uventede typer"]},"smoke":{"activity-log":["aktivitetslogg for test-kunden rendres med opprett-seksjon"],"advanced-search":["Header-søk med alfabetisk input åpner avansert-skjema med forventede felter"],"api-health":["kjerne-API-er svarer 2xx under customer-flow"],"bestill-broadband-entry":["Sidebar-knapp navigerer til katalog-side med begge produkt-kort"],"change-order-entry-points":["\"Bestill endring\"-popup viser 3 entry-knapper","\"Endre tilleggstjenester\" router til ChangeOrderBroadbandBusinessWizard","\"Endre abonnement\" router til speed+addons-wizard","\"Endre hastighet\" router til hastighets-wizard"],"customer-overview":["test-kunden rendres med header og søkefelt"],"customer-routes":[],"customer-search-edge":["tomt søk sender ikke request","kun whitespace sender ikke request","no-results viser \"Ingen treff\" i søkeresultatet","spesialtegn i input krasjer ikke siden"],"customer-search-happy":["numerisk KID-søk navigerer til riktig kunde","alfabetisk søk åpner avansert søkeskjema"],"deep-link":["gyldig deep-link åpner kundens overview","ugyldig hash redirecter til Fallback (NotFound)","type-mismatch (consumer URL med business-hash) redirecter til NoCustomer"],"home":["forsiden rendres med autentisert header"],"performance-baseline":["forsiden laster innen rimelig tid","kunde-oversikt laster innen rimelig tid"],"top-level-routes":[]},"wizards":{"change-order-from-overview":["Naviger til change-order-wizard via subscription-sausage"],"change-order-products-matrix":[],"change-order":["Wizard laster og første steg er klar","Step-walk: alle steg navigerbare, Avbryt på slutten"],"order-broadband-business-cancel":["Wizard cancel — gå gjennom alle 12 steg og avbryt på Oppsummering"],"order-broadband-business":["Wizard — bestill Fiber Bredbånd Bedrift 20 Mbit/s (happy path)"],"order-broadband-express":["Wizard — bestill Fiber med Ekspress leveranse (nær dato)"],"order-broadband-offnet":["Wizard — bestill Fiber OFF-NET via registrert adresse"],"order-broadband-products-matrix":[],"order-broadband-rollout":["Wizard — bestill Fiber OFF-NET/rollout (høy Gbit/s)"],"order-broadband-to-omt":["E2E — Fiber-bestilling dekomponerer til pending System Tasks i OMT"],"order-broadband-utbygging":["Wizard utbygging — Fiber off-net via registrert adresse, Avbryt på summary"],"order-tradlost-business-cancel":["Wizard — Trådløst Bredbånd Bedrift 60 (Avbryt-flyt)"],"order-tradlost-business-products-matrix":[],"order-tradlost-business":["Wizard — bestill Trådløst Bredbånd Bedrift 60 (happy path)"]}}
+{
+  "a11y": {
+    "activity-log.a11y": [
+      "A11y — Kundelogg passerer WCAG 2.1 AA-scan"
+    ],
+    "customer-routes.a11y": [
+      "Avtaler (/agreements) passerer WCAG 2.1 AA-scan",
+      "Faktura (/invoices-business) passerer WCAG 2.1 AA-scan",
+      "Kunde-oversikt (/overview) passerer WCAG 2.1 AA-scan",
+      "Kundekontoer (/accounts) passerer WCAG 2.1 AA-scan"
+    ],
+    "header-search.a11y": [
+      "Header-søk i initial tilstand passerer WCAG 2.1 AA-scan",
+      "Header-søk med avansert-skjema åpent passerer WCAG 2.1 AA-scan"
+    ],
+    "keyboard-nav": [
+      "IMEI-modalen kan åpnes og lukkes med tastatur",
+      "Tab-traversering fra forsiden — første 15 fokusable elementer"
+    ],
+    "pages.a11y": [
+      "forsiden passerer WCAG 2.1 AA-scan",
+      "forsidens header har stabil ARIA-struktur",
+      "Ordresøk passerer WCAG 2.1 AA-scan"
+    ],
+    "top-level-routes.a11y": [
+      "Innleverte innbytte-telefoner (/device-pickup) passerer WCAG 2.1 AA-scan",
+      "Porter nummerserier (/port-number-series) passerer WCAG 2.1 AA-scan"
+    ],
+    "wizard-steps.a11y": [
+      "Steg 1 (Installasjonsadresse) passerer WCAG 2.1 AA-scan",
+      "Steg 12 (Oppsummering) passerer WCAG 2.1 AA-scan",
+      "Steg 3 (Velg abonnement) passerer WCAG 2.1 AA-scan"
+    ]
+  },
+  "error-paths": {
+    "advanced-search-errors": [
+      "viser error-notification når commonSearch returnerer 400 with errorCode 40002 (manglende felt)",
+      "viser error-notification når commonSearch returnerer 500 server error"
+    ],
+    "customer-routes-errors": [
+      "Avtaler (/agreements) krasjer ikke når **/api/service/** returnerer 500",
+      "Faktura (/invoices-business) krasjer ikke når **/api/account/accounts** returnerer 500",
+      "Kundekontoer (/accounts) krasjer ikke når **/api/organization/findAccounts** returnerer 500",
+      "Ordresøk (business) (/order-search-business) krasjer ikke når **/api/orders/getSalesForRetail** returnerer 500"
+    ],
+    "dealer-dashboard-errors": [
+      "siden krasjer ikke når /api/dealer/allUsersWithStatus returnerer 500"
+    ],
+    "header-search-errors": [
+      "viser \"Søk feilet\" når simpleSearch returnerer 401 unauthorized",
+      "viser \"Søk feilet\" når simpleSearch returnerer 500 server error"
+    ],
+    "header-search-recovery": [
+      "bruker kan retry etter 500 og navigere til kunde"
+    ],
+    "home-errors": [
+      "Forsiden krasjer ikke når /api/notification* returnerer 500",
+      "Forsiden krasjer ikke når /api/user* returnerer 500",
+      "Forsiden krasjer ikke når notification + customer-search APIer timer ut samtidig"
+    ],
+    "top-level-routes-errors": [
+      "Innleverte innbytte-telefoner (/device-pickup) krasjer ikke når **/api/deviceReturn/ready** returnerer 500",
+      "Ordresøk (/serviceorders) krasjer ikke når **/api/orders/getSalesForRetail** returnerer 500",
+      "Porter nummerserier (/port-number-series) krasjer ikke når **/api/subscriptions/getValidPortingDates** returnerer 500"
+    ],
+    "wizard-errors": [
+      "Bestill-klikk håndterer 500 fra ordre-endpoint uten å crashe",
+      "Steg 3 håndterer 500 fra /broadband-technologies uten å crashe",
+      "Wizard krasjer ikke når alle /api/*-kall timer ut etter start"
+    ]
+  },
+  "exploration": {
+    "bestill-with-trace": [
+      "Bestill med trace-capture for diagnostisk analyse"
+    ],
+    "cancel-with-trace": [
+      "Avbryt med trace-capture for sammenligning"
+    ],
+    "capture-order-payloads": [
+      "Capture order-payloads for direct API replay"
+    ],
+    "capture-traces": [
+      "Trace-capture — wizard-flyt fra start til Steg 11 (Avbryt)"
+    ],
+    "dump-response-headers": [
+      "Dump headers fra OneView API-responser"
+    ],
+    "find-free-subscription": [
+      "Finn fri TBB-subscription — sjekk wifi-steget grundig"
+    ],
+    "find-new-tbb-subscription": [
+      "OMT — status etter LOS-retry, prøv cancel"
+    ],
+    "grafana-api-probe": [
+      "Grafana API — finn Tempo datasource"
+    ],
+    "healthcheck": [
+      "naviger gjennom stabile ruter og samle runtime-issues"
+    ],
+    "inject-traceparent": [
+      "Inject traceparent — verifiser at OneView propagerer til Tempo"
+    ],
+    "list-subscriptions": [
+      "Liste abonnementer på test-kunden"
+    ],
+    "list-tbb-subscriptions": [
+      "List TBB subscription-IDer via sausage-klikk"
+    ],
+    "los-simulator-verify": [
+      "losSimulator — body matcher Toves Fiber-template"
+    ],
+    "orderhub-auth": [
+      "SNFF OrderHub — SAML login + lagre storageState"
+    ],
+    "probe-fwa-availability": [
+      "probe broadband-technologies for FWA-AVAILABLE"
+    ],
+    "probe-h0101-fiber-far": [
+      "PROBE — finn H0101-FAR med Fiber tilgjengelig"
+    ],
+    "probe-known-fiber-farid": [
+      "bekreft kjent fiber-FAR-ID"
+    ],
+    "probe-offnet-address": [
+      "test-addresses — off-net FAR-kandidater"
+    ],
+    "probe-offnet-entry": [
+      "kunde-oversikt — off-net bestillingsinngang?"
+    ],
+    "probe-offnet-wizard": [
+      "A: off-net Steg 3 — full dump",
+      "B: Avansert søk på Steg 1"
+    ],
+    "probe-regaddr-select": [
+      "Steg1 — hvordan velge registrert adresse"
+    ],
+    "probe-regaddr-select2": [
+      "Steg1 — enkelt kort-klikk + vent"
+    ],
+    "probe-salesforce-access": [
+      "Salesforce — kan åpne kjent Case-record"
+    ],
+    "probe-salesforce-order-lookup": [
+      "probe SF order lookup"
+    ],
+    "probe-steg1-cards": [
+      "Steg1 — registrerte adresse-kort"
+    ],
+    "probe-step3-products": [
+      "PROBE — Steg 3-produkter for FAR 51467800"
+    ],
+    "probe-tbb-wizard": [
+      "probe TBB wizard structure"
+    ],
+    "probe-wizard-12-steps": [
+      "probe wizard 12-stegs flyt (m/ Redundansetype)"
+    ],
+    "search-ui-probe": [
+      "hva sender frontenden ved side-load og input?"
+    ],
+    "send-los-final-response": [
+      "LOS — send final-respons (losprovresponse)"
+    ],
+    "snff-orderhub-reach": [
+      "SNFF OrderHub — reachability/auth-probe"
+    ],
+    "tbb-cancel-testdata": [
+      "TBB avvik-testdata — bestill og kanseller (setter Cancellation_Reason__c)"
+    ],
+    "tbb-order-confirmation-testdata": [
+      "TBB order confirmation — OMT-fullføring for ordre <sett RECOVERY_ORDER_ID>",
+      "TBB order confirmation testdata — bestill + fullfør OMT (trigger OC_TBB_Order_Confirmation)"
+    ],
+    "test-addresses-auth-probe": [
+      "Auth-verifisering mot Test Addresses-tjenesten"
+    ],
+    "test-addresses-find-farid": [
+      "TestAddressesPage — finner gyldig FAR-ID",
+      "TestAddressesPage — kan hente flere FAR-IDer"
+    ],
+    "test-addresses-grid": [
+      "grid-search test-addresses (Source × ResponseCode)"
+    ],
+    "trigger-sms-flows": [
+      "Åpne SF Order Details for ordre og trigger SMS-flows manuelt"
+    ],
+    "validate-call-investigation": [
+      "Investigate why validate/new is called twice"
+    ]
+  },
+  "navigation": {
+    "main-navigation": [
+      "\"Forhandler\" → \\/oneview\\/dealer-dashboard",
+      "\"Innleverte innbytte-telefoner\" → \\/oneview\\/device-pickup",
+      "\"Ordresøk\" → \\/oneview\\/serviceorders",
+      "\"Porter nummerserier\" → \\/oneview\\/port-number-series",
+      "\"Sjekk sperring på IMEI\" → modal \"Sjekk om telefonen er sperret\"",
+      "bruker kan navigere fra forside til ordresøk og tilbake via header",
+      "hamburger-menyen viser stabile menypunkter"
+    ],
+    "menu-feature-flags": [
+      "atest-bruker har \"Forhandler\" via dealerDashboard",
+      "atest-bruker har \"Innleverte innbytte-telefoner\" via manageTradeIn || manageSwapAgreement",
+      "atest-bruker har \"Ordresøk\" via orderSearch",
+      "atest-bruker har \"Porter nummerserier\" via canOrderNumberSeries",
+      "atest-bruker mangler \"Provisjonsrapport\" (krever commissionReport)",
+      "atest-bruker mangler \"Streamix-provisjon\" (krever canViewStreamixCommissions)",
+      "atest-bruker mangler \"Verdikoder\" (krever canCreateVouchers)"
+    ]
+  },
+  "inselo": {
+    "access": [
+      "Inselo — authenticated Orders form"
+    ],
+    "dispatch": [
+      "Inselo — dispatch shipped webhook once"
+    ],
+    "preview": [
+      "Inselo — preview shipped webhook without dispatch"
+    ],
+    "report": [
+      "Inselo — read one LOS order"
+    ]
+  },
+  "omt": {
+    "cancel-order-omt": [
+      "OMT — kanseller ordre + sjekk respons"
+    ],
+    "cancel-order-tasks": [
+      "OMT — kanseller utvalgte tasks for ordre"
+    ],
+    "complete-order-live": [
+      "LIVE — drive ordre i OMT"
+    ],
+    "complete-snff-task": [
+      "OMT — best-effort SNFF-completion"
+    ],
+    "complete-tor-task": [
+      "OMT — forsøk TOR-completion"
+    ],
+    "inspect-omt-order": [
+      "Inspect OMT cancellation controls"
+    ],
+    "omt-dump-params": [
+      "OMT — dump Params"
+    ],
+    "omt-params-inspect": [
+      "OMT — inspiser Params-UI"
+    ],
+    "order-completer-probe": [
+      "Orchestrator dry-run"
+    ],
+    "report": [
+      "OMT — report tasks, messages and order URL"
+    ],
+    "task-action": [
+      "OMT — apply one task action and verify status"
+    ]
+  },
+  "woc": {
+    "access": [
+      "WOC — authenticated QuickFilter"
+    ],
+    "closure": [
+      "WOC — send Executed closure once"
+    ],
+    "preview": [
+      "WOC — prepare Executed closure without sending"
+    ],
+    "report": [
+      "WOC — read one workorder and tabs"
+    ]
+  },
+  "pairwise": {
+    "constraints": [
+      "Fiber happy-path er gyldig",
+      "Internett-modus krever variant ≠ N/A",
+      "Nordic Connect WAN-only krever variant=N/A",
+      "TBB med ikke-default uptime er ugyldig",
+      "TBB med Ingen tilleggsløsning er gyldig"
+    ],
+    "factors": [
+      "Combination type er compile-time-typesafe",
+      "Combination type rejects invalid values (compile-time)",
+      "factors definerer 7 faktorer",
+      "ingen duplikater i FACTORS-verdier",
+      "internetVariant inkluderer N/A som verdi",
+      "product har 15 verdier (8 Fiber Mbit + 7 TBB)"
+    ],
+    "orderIdSink": [
+      "appendOrderId akkumulerer over flere kall",
+      "readOrderIds returns [] when sink missing",
+      "tomme linjer ignoreres i readOrderIds"
+    ],
+    "wizard-pairwise": [
+      "[1/35] Fiber Bredbånd Bedrift 400 Mbit/s | uptime=4G Mobil backup | network=Internett/Linknet - Flere faste IP-adresser | sla=SLA Virkedager 8 - 17/SZ=true | delivery=Ekspress leveranse",
+      "[10/35] Fiber Bredbånd Bedrift 400 Mbit/s | uptime=Mobil redundans | network=Internett og Nordic Connect WAN/Internett med brannmur | sla=SLA Alle dager 24/7/SZ=false | delivery=Standard leveranse",
+      "[11/35] Fiber Bredbånd Bedrift 40 Mbit/s | uptime=Ingen tilleggsløsning | network=Internett/Linknet - Flere faste IP-adresser | sla=SLA Virkedager 8 - 17/SZ=true | delivery=Standard leveranse",
+      "[12/35] Fiber Bredbånd Bedrift 200 Mbit/s | uptime=Fiber redundans | network=Internett/Linknet - Flere faste IP-adresser | sla=SLA Virkedager 8 - 17/SZ=true | delivery=Standard leveranse",
+      "[13/35] Fiber Bredbånd Bedrift 40 Mbit/s | uptime=Fiber redundans | network=Internett og Nordic Connect WAN/Linknet - Èn fast IP-adresse | sla=SLA Virkedager 8 - 17/SZ=true | delivery=Ønsket leveransedato",
+      "[14/35] Fiber Bredbånd Bedrift 60 Mbit/s | uptime=Ingen tilleggsløsning | network=Internett/Linknet - Èn fast IP-adresse | sla=SLA Virkedager 8 - 17/SZ=true | delivery=Ønsket leveransedato",
+      "[15/35] Fiber Bredbånd Bedrift 400 Mbit/s | uptime=Fiber redundans | network=Nordic Connect WAN/N/A | sla=SLA Virkedager 8 - 17/SZ=true | delivery=Ønsket leveransedato",
+      "[16/35] Fiber Bredbånd Bedrift 50 Mbit/s | uptime=4G Mobil backup | network=Nordic Connect WAN/N/A | sla=SLA Virkedager 8 - 17/SZ=false | delivery=Standard leveranse",
+      "[17/35] Fiber Bredbånd Bedrift 20 Mbit/s | uptime=Fiber redundans | network=Internett/Linknet - Flere faste IP-adresser | sla=SLA Alle dager 24/7/SZ=true | delivery=Standard leveranse",
+      "[18/35] Trådløst Bredbånd Bedrift 40 | uptime=Ingen tilleggsløsning | network=Internett og Nordic Connect WAN/Linknet - Flere faste IP-adresser | sla=SLA Virkedager 8 - 17/SZ=true | delivery=Ekspress leveranse",
+      "[19/35] Fiber Bredbånd Bedrift 40 Mbit/s | uptime=4G Mobil backup | network=Internett/Internett med brannmur | sla=SLA Virkedager 8 - 17/SZ=true | delivery=Prioritert leveransedato",
+      "[2/35] Trådløst Bredbånd Bedrift 100 | uptime=Ingen tilleggsløsning | network=Internett/Linknet - Èn fast IP-adresse | sla=SLA Alle dager 24/7/SZ=false | delivery=Standard leveranse",
+      "[20/35] Fiber Bredbånd Bedrift 50 Mbit/s | uptime=Ingen tilleggsløsning | network=Internett/Linknet - Flere faste IP-adresser | sla=SLA Virkedager 8 - 17/SZ=true | delivery=Ekspress leveranse",
+      "[21/35] Trådløst Bredbånd Bedrift 400 | uptime=Ingen tilleggsløsning | network=Internett/Internett med brannmur | sla=SLA Virkedager 8 - 17/SZ=true | delivery=Ønsket leveransedato",
+      "[22/35] Fiber Bredbånd Bedrift 100 Mbit/s | uptime=Fiber redundans | network=Internett og Nordic Connect WAN/Linknet - Flere faste IP-adresser | sla=SLA Virkedager 8 - 17/SZ=true | delivery=Ekspress leveranse",
+      "[23/35] Trådløst Bredbånd Bedrift 60 | uptime=Ingen tilleggsløsning | network=Internett/Linknet - Èn fast IP-adresse | sla=SLA Virkedager 8 - 17/SZ=true | delivery=Prioritert leveransedato",
+      "[24/35] Fiber Bredbånd Bedrift 60 Mbit/s | uptime=Mobil redundans | network=Internett/Internett med brannmur | sla=SLA Virkedager 8 - 17/SZ=true | delivery=Prioritert leveransedato",
+      "[25/35] Fiber Bredbånd Bedrift 400 Mbit/s | uptime=Ingen tilleggsløsning | network=Internett/Linknet - Èn fast IP-adresse | sla=SLA Virkedager 8 - 17/SZ=true | delivery=Prioritert leveransedato",
+      "[26/35] Fiber Bredbånd Bedrift 10 Mbit/s | uptime=5G Mobil reserve | network=Internett/Linknet - Flere faste IP-adresser | sla=SLA Virkedager 8 - 17/SZ=true | delivery=Ekspress leveranse",
+      "[27/35] Fiber Bredbånd Bedrift 200 Mbit/s | uptime=Ingen tilleggsløsning | network=Internett/Internett med brannmur | sla=SLA Virkedager 8 - 17/SZ=true | delivery=Ekspress leveranse",
+      "[28/35] Fiber Bredbånd Bedrift 10 Mbit/s | uptime=Mobil redundans | network=Internett/Internett med brannmur | sla=SLA Virkedager 8 - 17/SZ=true | delivery=Standard leveranse",
+      "[29/35] Fiber Bredbånd Bedrift 400 Mbit/s | uptime=5G Mobil reserve | network=Internett/Internett med brannmur | sla=SLA Virkedager 8 - 17/SZ=true | delivery=Standard leveranse",
+      "[3/35] Fiber Bredbånd Bedrift 40 Mbit/s | uptime=Mobil redundans | network=Nordic Connect WAN/N/A | sla=SLA Alle dager 24/7/SZ=false | delivery=Ekspress leveranse",
+      "[30/35] Fiber Bredbånd Bedrift 40 Mbit/s | uptime=5G Mobil reserve | network=Internett/Internett med brannmur | sla=SLA Virkedager 8 - 17/SZ=true | delivery=Standard leveranse",
+      "[31/35] Fiber Bredbånd Bedrift 200 Mbit/s | uptime=5G Mobil reserve | network=Internett/Internett med brannmur | sla=SLA Virkedager 8 - 17/SZ=true | delivery=Standard leveranse",
+      "[32/35] Fiber Bredbånd Bedrift 20 Mbit/s | uptime=4G Mobil backup | network=Internett/Internett med brannmur | sla=SLA Virkedager 8 - 17/SZ=true | delivery=Standard leveranse",
+      "[33/35] Fiber Bredbånd Bedrift 50 Mbit/s | uptime=Mobil redundans | network=Internett/Internett med brannmur | sla=SLA Virkedager 8 - 17/SZ=true | delivery=Standard leveranse",
+      "[34/35] Fiber Bredbånd Bedrift 60 Mbit/s | uptime=5G Mobil reserve | network=Internett/Internett med brannmur | sla=SLA Virkedager 8 - 17/SZ=true | delivery=Standard leveranse",
+      "[35/35] Fiber Bredbånd Bedrift 100 Mbit/s | uptime=4G Mobil backup | network=Internett/Internett med brannmur | sla=SLA Virkedager 8 - 17/SZ=true | delivery=Standard leveranse",
+      "[4/35] Fiber Bredbånd Bedrift 50 Mbit/s | uptime=5G Mobil reserve | network=Internett/Internett med brannmur | sla=SLA Alle dager 24/7/SZ=true | delivery=Prioritert leveransedato",
+      "[5/35] Fiber Bredbånd Bedrift 20 Mbit/s | uptime=5G Mobil reserve | network=Internett og Nordic Connect WAN/Linknet - Èn fast IP-adresse | sla=SLA Virkedager 8 - 17/SZ=false | delivery=Ekspress leveranse",
+      "[6/35] Trådløst Bredbånd Bedrift 200 | uptime=Ingen tilleggsløsning | network=Internett og Nordic Connect WAN/Internett med brannmur | sla=SLA Virkedager 8 - 17/SZ=true | delivery=Ekspress leveranse",
+      "[7/35] Fiber Bredbånd Bedrift 50 Mbit/s | uptime=Fiber redundans | network=Internett og Nordic Connect WAN/Linknet - Èn fast IP-adresse | sla=SLA Virkedager 8 - 17/SZ=true | delivery=Ønsket leveransedato",
+      "[8/35] Fiber Bredbånd Bedrift 10 Mbit/s | uptime=4G Mobil backup | network=Internett og Nordic Connect WAN/Internett med brannmur | sla=SLA Virkedager 8 - 17/SZ=false | delivery=Ønsket leveransedato",
+      "[9/35] Fiber Bredbånd Bedrift 100 Mbit/s | uptime=Mobil redundans | network=Internett/Linknet - Èn fast IP-adresse | sla=SLA Virkedager 8 - 17/SZ=false | delivery=Standard leveranse"
+    ]
+  },
+  "security": {
+    "authorization-idor": [
+      "IDOR — kan vi nå andre kunders data via URL-manipulasjon?"
+    ],
+    "business-logic-abuse": [
+      "Business-logic abuse — uventede payloads og method-tampering"
+    ],
+    "csp-enforcement": [
+      "CSP — inline script og fremmed origin blir blokkert"
+    ],
+    "csrf": [
+      "CSRF — state-endrende endpoints krever Origin/Referer"
+    ],
+    "direct-api-access": [
+      "Direkte API — kall endpoints uten UI"
+    ],
+    "header-injection": [
+      "Header-injection — CRLF i URL/query gir ikke injicerte headere"
+    ],
+    "headers-and-cookies": [
+      "Cookie-flags på auth- og transport-cookies",
+      "HTTP response headers mot ASVS L2-baseline",
+      "Ingen mixed content (http-ressurser på https-side)",
+      "Web Storage — hvilke nøkler er eksponert"
+    ],
+    "info-disclosure": [
+      "Info-disclosure — kjente paths som kan lekke info"
+    ],
+    "input-fuzzing-change-order-contact": [
+      "Change-order Contact-steg — input-fuzzing"
+    ],
+    "input-fuzzing-customer-search": [
+      "Customer overview-søk — input-fuzzing med 25 payloads"
+    ],
+    "input-fuzzing-mutations": [
+      "Header-søk — mutation-fuzzing med 36 genererte varianter"
+    ],
+    "input-fuzzing-wizard-contact": [
+      "Wizard Steg 10 kontakt-felter — input-fuzzing"
+    ],
+    "input-fuzzing-wizard-farid": [
+      "Wizard Steg 1 FAR-ID-input — fuzzing"
+    ],
+    "input-fuzzing-wizard-tbb-contact": [
+      "Wizard Steg 10 TBB-kontakt-felter — input-fuzzing"
+    ],
+    "input-fuzzing": [
+      "Header-søk — input-fuzzing med 25 payloads"
+    ],
+    "json-dos": [
+      "JSON DoS — BE håndterer monster-payloads gracefully"
+    ],
+    "lighthouse-equivalent": [
+      "Lighthouse-equivalent — sikkerhet/best-practices-audit"
+    ],
+    "open-redirect-and-hpp": [
+      "HPP — håndteres dupliserte query-params trygt?",
+      "Open redirect — kan ekstern URL injeksjon i query-param trigge redirect?"
+    ],
+    "property-based-fuzz": [
+      "Property-based fuzz — 50 tilfeldige payloads (seed=20260910)"
+    ],
+    "race-conditions": [
+      "Race — 10 parallelle validate-kall returnerer deterministisk",
+      "Race — parallelle simpleSearch returnerer konsistent"
+    ],
+    "rate-limiting": [
+      "Rate-limit — hvor mange parallel-requests tåler simpleSearch?"
+    ],
+    "route-fuzzing": [
+      "Dynamiske ruter — URL-fuzzing med ondsinnet payload-segment"
+    ],
+    "session-integrity": [
+      "Session — cookies brukes ikke utenfor /oneview/-paths",
+      "Session — cookies og storage inneholder ikke sensitive plain-text"
+    ],
+    "storage-deep-dive": [
+      "Cache API — er API-responses med PII cachet?",
+      "IndexedDB — sensitive data?",
+      "Service Workers — registrert og scope"
+    ],
+    "tls-audit": [
+      "TLS-audit — protokoll, sertifikat og gyldighet"
+    ],
+    "type-juggling": [
+      "Type-juggling — schema avviser uventede typer"
+    ]
+  },
+  "smoke": {
+    "activity-log": [
+      "aktivitetslogg for test-kunden rendres med opprett-seksjon"
+    ],
+    "advanced-search": [
+      "Header-søk med alfabetisk input åpner avansert-skjema med forventede felter"
+    ],
+    "api-health": [
+      "kjerne-API-er svarer 2xx under customer-flow"
+    ],
+    "bestill-broadband-entry": [
+      "Sidebar-knapp navigerer til katalog-side med begge produkt-kort"
+    ],
+    "change-order-entry-points": [
+      "\"Bestill endring\"-popup viser 3 entry-knapper",
+      "\"Endre abonnement\" router til speed+addons-wizard",
+      "\"Endre hastighet\" router til hastighets-wizard",
+      "\"Endre tilleggstjenester\" router til ChangeOrderBroadbandBusinessWizard"
+    ],
+    "customer-overview": [
+      "test-kunden rendres med header og søkefelt"
+    ],
+    "customer-routes": [
+      "smoke /accounts",
+      "smoke /agreements",
+      "smoke /invoices-business",
+      "smoke /order-search-business",
+      "smoke /sms-business",
+      "smoke /terminated-subscriptions"
+    ],
+    "customer-search-edge": [
+      "kun whitespace sender ikke request",
+      "no-results viser \"Ingen treff\" i søkeresultatet",
+      "spesialtegn i input krasjer ikke siden",
+      "tomt søk sender ikke request"
+    ],
+    "customer-search-happy": [
+      "alfabetisk søk åpner avansert søkeskjema",
+      "numerisk KID-søk navigerer til riktig kunde"
+    ],
+    "deep-link": [
+      "gyldig deep-link åpner kundens overview",
+      "type-mismatch (consumer URL med business-hash) redirecter til NoCustomer",
+      "ugyldig hash redirecter til Fallback (NotFound)"
+    ],
+    "home": [
+      "forsiden rendres med autentisert header"
+    ],
+    "performance-baseline": [
+      "forsiden laster innen rimelig tid",
+      "kunde-oversikt laster innen rimelig tid"
+    ],
+    "top-level-routes": [
+      "smoke /device-pickup",
+      "smoke /port-number-series",
+      "smoke /serviceorders"
+    ]
+  },
+  "unit": {
+    "inselo-operations": [
+      "ambiguous shipped options are rejected",
+      "empty option labels need an explicit known value",
+      "shipped selected by semantic label, independent of option order"
+    ],
+    "omt-operations": [
+      "action and expected status must be explicit",
+      "already expected status does not send an action",
+      "approval verifies same task after one action, ignoring other matching targets",
+      "click failure is propagated without sending another action",
+      "missing task stops before any action",
+      "operation input rejects missing, malformed and zero IDs",
+      "status report preserves waiting and failed statuses separately from completed/cancelled",
+      "task selection uses exact ID even when another ID contains it",
+      "unmet expected status fails without resending Retry"
+    ]
+  },
+  "wizards": {
+    "change-order-from-overview": [
+      "Naviger til change-order-wizard via subscription-sausage"
+    ],
+    "change-order-products-matrix": [
+      "Change-order step-walk — Trådløst Bredbånd Bedrift 200 (sub 84210848)",
+      "Change-order step-walk — Trådløst Bredbånd Bedrift 40 (sub 84211612)"
+    ],
+    "change-order": [
+      "Step-walk: alle steg navigerbare, Avbryt på slutten",
+      "Wizard laster og første steg er klar"
+    ],
+    "order-broadband-business-cancel": [
+      "Wizard cancel — gå gjennom alle 12 steg og avbryt på Oppsummering"
+    ],
+    "order-broadband-business": [
+      "Wizard — bestill Fiber Bredbånd Bedrift 20 Mbit/s (happy path)"
+    ],
+    "order-broadband-express": [
+      "Wizard — bestill Fiber med Ekspress leveranse (nær dato)"
+    ],
+    "order-broadband-full-e2e": [
+      "E2E — Fiber Bredbånd Bedrift ferdig stilles (wizard → OMT completion)"
+    ],
+    "order-broadband-offnet": [
+      "Wizard — bestill Fiber OFF-NET via registrert adresse"
+    ],
+    "order-broadband-products-matrix": [
+      "flyt for Fiber Bredbånd Bedrift 10 Mbit/s",
+      "flyt for Fiber Bredbånd Bedrift 100 Mbit/s",
+      "flyt for Fiber Bredbånd Bedrift 20 Mbit/s",
+      "flyt for Fiber Bredbånd Bedrift 200 Mbit/s",
+      "flyt for Fiber Bredbånd Bedrift 40 Mbit/s",
+      "flyt for Fiber Bredbånd Bedrift 400 Mbit/s",
+      "flyt for Fiber Bredbånd Bedrift 50 Mbit/s",
+      "flyt for Fiber Bredbånd Bedrift 60 Mbit/s",
+      "flyt for Fiber Bredbånd Bedrift 1 Gbit/s",
+      "flyt for Fiber Bredbånd Bedrift 10 Gbit/s",
+      "flyt for Fiber Bredbånd Bedrift 100 Gbit/s",
+      "flyt for Fiber Bredbånd Bedrift 2 Gbit/s",
+      "flyt for Fiber Bredbånd Bedrift 20 Gbit/s",
+      "flyt for Fiber Bredbånd Bedrift 30 Gbit/s",
+      "flyt for Fiber Bredbånd Bedrift 4 Gbit/s",
+      "flyt for Fiber Bredbånd Bedrift 40 Gbit/s",
+      "flyt for Fiber Bredbånd Bedrift 5 Gbit/s",
+      "flyt for Fiber Bredbånd Bedrift 500 Mbit/s",
+      "flyt for Fiber Bredbånd Bedrift 6 Gbit/s",
+      "flyt for Fiber Bredbånd Bedrift 60 Gbit/s",
+      "flyt for Fiber Bredbånd Bedrift 600 Mbit/s"
+    ],
+    "order-broadband-rollout": [
+      "Wizard — bestill Fiber OFF-NET/rollout (høy Gbit/s)"
+    ],
+    "order-broadband-to-omt": [
+      "E2E — Fiber-bestilling dekomponerer til pending System Tasks i OMT"
+    ],
+    "order-broadband-utbygging": [
+      "Wizard utbygging — Fiber off-net via registrert adresse, Avbryt på summary"
+    ],
+    "order-tradlost-business-cancel": [
+      "Wizard — Trådløst Bredbånd Bedrift 60 (Avbryt-flyt)"
+    ],
+    "order-tradlost-business-products-matrix": [
+      "flyt for Trådløst Bredbånd Bedrift 10",
+      "flyt for Trådløst Bredbånd Bedrift 100",
+      "flyt for Trådløst Bredbånd Bedrift 20",
+      "flyt for Trådløst Bredbånd Bedrift 200",
+      "flyt for Trådløst Bredbånd Bedrift 40",
+      "flyt for Trådløst Bredbånd Bedrift 400",
+      "flyt for Trådløst Bredbånd Bedrift 60"
+    ],
+    "order-tradlost-business": [
+      "Wizard — bestill Trådløst Bredbånd Bedrift 60 (happy path)"
+    ]
+  }
+}
