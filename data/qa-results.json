@@ -1,15 +1,15 @@
 {
   "schemaVersion": 2,
-  "lastRun": "2026-09-10T12:58:05.351Z",
+  "lastRun": "2026-09-23T10:20:43.580Z",
   "summaryScope": "latest-per-test-across-runs",
-  "catalogTotal": 278,
-  "notRun": 102,
+  "catalogTotal": 283,
+  "notRun": 108,
   "totals": {
-    "passed": 146,
+    "passed": 145,
     "failed": 15,
     "skipped": 15,
     "flaky": 0,
-    "total": 176
+    "total": 175
   },
   "results": {
     "a11y": {
@@ -2129,15 +2129,15 @@
           "status": "passed",
           "flaky": false,
           "expectedStatus": "passed",
-          "startTime": "2026-09-10T12:57:00.781Z",
-          "runStart": "2026-09-10T12:54:34.782Z",
-          "duration": 1824,
+          "startTime": "2026-09-23T10:20:30.144Z",
+          "runStart": "2026-09-23T10:20:23.072Z",
+          "duration": 5524,
           "attempts": [
             {
               "status": "passed",
               "retry": 0,
-              "startTime": "2026-09-10T12:57:00.781Z",
-              "duration": 1824
+              "startTime": "2026-09-23T10:20:30.144Z",
+              "duration": 5524
             }
           ],
           "orderIds": []
@@ -2158,15 +2158,15 @@
           "status": "passed",
           "flaky": false,
           "expectedStatus": "passed",
-          "startTime": "2026-09-10T12:57:01.237Z",
-          "runStart": "2026-09-10T12:54:34.782Z",
-          "duration": 1081,
+          "startTime": "2026-09-23T10:20:30.154Z",
+          "runStart": "2026-09-23T10:20:23.072Z",
+          "duration": 4351,
           "attempts": [
             {
               "status": "passed",
               "retry": 0,
-              "startTime": "2026-09-10T12:57:01.237Z",
-              "duration": 1081
+              "startTime": "2026-09-23T10:20:30.154Z",
+              "duration": 4351
             }
           ],
           "orderIds": []
@@ -2187,15 +2187,15 @@
           "status": "passed",
           "flaky": false,
           "expectedStatus": "passed",
-          "startTime": "2026-09-10T12:57:02.347Z",
-          "runStart": "2026-09-10T12:54:34.782Z",
-          "duration": 6316,
+          "startTime": "2026-09-23T10:20:30.151Z",
+          "runStart": "2026-09-23T10:20:23.072Z",
+          "duration": 11814,
           "attempts": [
             {
               "status": "passed",
               "retry": 0,
-              "startTime": "2026-09-10T12:57:02.347Z",
-              "duration": 6316
+              "startTime": "2026-09-23T10:20:30.151Z",
+              "duration": 11814
             }
           ],
           "orderIds": []
@@ -2216,48 +2216,21 @@
           "status": "passed",
           "flaky": false,
           "expectedStatus": "passed",
-          "startTime": "2026-09-10T12:57:02.661Z",
-          "runStart": "2026-09-10T12:54:34.782Z",
-          "duration": 1885,
+          "startTime": "2026-09-23T10:20:30.151Z",
+          "runStart": "2026-09-23T10:20:23.072Z",
+          "duration": 7851,
           "attempts": [
             {
               "status": "passed",
               "retry": 0,
-              "startTime": "2026-09-10T12:57:02.661Z",
-              "duration": 1885
+              "startTime": "2026-09-23T10:20:30.151Z",
+              "duration": 7851
             }
           ],
           "orderIds": []
         }
       ],
       "change-order-entry-points": [
-        {
-          "path": "smoke/change-order-entry-points.spec.ts",
-          "category": "smoke",
-          "file": "change-order-entry-points",
-          "id": "[\"smoke/change-order-entry-points.spec.ts\",\"chromium-authenticated\",[\"Smoke — change-order entry-points\",\"\\\"Bestill endring\\\"-popup viser 3 entry-knapper\"]]",
-          "project": "chromium-authenticated",
-          "titles": [
-            "Smoke — change-order entry-points",
-            "\"Bestill endring\"-popup viser 3 entry-knapper"
-          ],
-          "name": "\"Bestill endring\"-popup viser 3 entry-knapper",
-          "status": "passed",
-          "flaky": false,
-          "expectedStatus": "passed",
-          "startTime": "2026-09-10T12:57:04.600Z",
-          "runStart": "2026-09-10T12:54:34.782Z",
-          "duration": 5060,
-          "attempts": [
-            {
-              "status": "passed",
-              "retry": 0,
-              "startTime": "2026-09-10T12:57:04.600Z",
-              "duration": 5060
-            }
-          ],
-          "orderIds": []
-        },
         {
           "path": "smoke/change-order-entry-points.spec.ts",
           "category": "smoke",
@@ -2272,15 +2245,15 @@
           "status": "passed",
           "flaky": false,
           "expectedStatus": "passed",
-          "startTime": "2026-09-10T12:57:08.697Z",
-          "runStart": "2026-09-10T12:54:34.782Z",
-          "duration": 4212,
+          "startTime": "2026-09-23T10:20:30.153Z",
+          "runStart": "2026-09-23T10:20:23.072Z",
+          "duration": 11729,
           "attempts": [
             {
               "status": "passed",
               "retry": 0,
-              "startTime": "2026-09-10T12:57:08.697Z",
-              "duration": 4212
+              "startTime": "2026-09-23T10:20:30.153Z",
+              "duration": 11729
             }
           ],
           "orderIds": []
@@ -2299,15 +2272,15 @@
           "status": "passed",
           "flaky": false,
           "expectedStatus": "passed",
-          "startTime": "2026-09-10T12:57:09.672Z",
-          "runStart": "2026-09-10T12:54:34.782Z",
-          "duration": 4173,
+          "startTime": "2026-09-23T10:20:30.144Z",
+          "runStart": "2026-09-23T10:20:23.072Z",
+          "duration": 11767,
           "attempts": [
             {
               "status": "passed",
               "retry": 0,
-              "startTime": "2026-09-10T12:57:09.672Z",
-              "duration": 4173
+              "startTime": "2026-09-23T10:20:30.144Z",
+              "duration": 11767
             }
           ],
           "orderIds": []
@@ -2316,25 +2289,25 @@
           "path": "smoke/change-order-entry-points.spec.ts",
           "category": "smoke",
           "file": "change-order-entry-points",
-          "id": "[\"smoke/change-order-entry-points.spec.ts\",\"chromium-authenticated\",[\"Smoke — change-order entry-points\",\"\\\"Endre hastighet\\\" router til hastighets-wizard\"]]",
+          "id": "[\"smoke/change-order-entry-points.spec.ts\",\"chromium-authenticated\",[\"Smoke — change-order entry-points\",\"\\\"Bestill endring\\\"-popup viser 2 entry-knapper\"]]",
           "project": "chromium-authenticated",
           "titles": [
             "Smoke — change-order entry-points",
-            "\"Endre hastighet\" router til hastighets-wizard"
+            "\"Bestill endring\"-popup viser 2 entry-knapper"
           ],
-          "name": "\"Endre hastighet\" router til hastighets-wizard",
+          "name": "\"Bestill endring\"-popup viser 2 entry-knapper",
           "status": "passed",
           "flaky": false,
           "expectedStatus": "passed",
-          "startTime": "2026-09-10T12:57:12.921Z",
-          "runStart": "2026-09-10T12:54:34.782Z",
-          "duration": 3636,
+          "startTime": "2026-09-23T10:20:30.154Z",
+          "runStart": "2026-09-23T10:20:23.072Z",
+          "duration": 10865,
           "attempts": [
             {
               "status": "passed",
               "retry": 0,
-              "startTime": "2026-09-10T12:57:12.921Z",
-              "duration": 3636
+              "startTime": "2026-09-23T10:20:30.154Z",
+              "duration": 10865
             }
           ],
           "orderIds": []
@@ -2355,15 +2328,15 @@
           "status": "passed",
           "flaky": false,
           "expectedStatus": "passed",
-          "startTime": "2026-09-10T12:57:13.884Z",
-          "runStart": "2026-09-10T12:54:34.782Z",
-          "duration": 1987,
+          "startTime": "2026-09-23T10:20:30.128Z",
+          "runStart": "2026-09-23T10:20:23.072Z",
+          "duration": 7832,
           "attempts": [
             {
               "status": "passed",
               "retry": 0,
-              "startTime": "2026-09-10T12:57:13.884Z",
-              "duration": 1987
+              "startTime": "2026-09-23T10:20:30.128Z",
+              "duration": 7832
             }
           ],
           "orderIds": []
@@ -2384,15 +2357,15 @@
           "status": "passed",
           "flaky": false,
           "expectedStatus": "passed",
-          "startTime": "2026-09-10T12:57:15.934Z",
-          "runStart": "2026-09-10T12:54:34.782Z",
-          "duration": 1479,
+          "startTime": "2026-09-23T10:20:30.199Z",
+          "runStart": "2026-09-23T10:20:23.072Z",
+          "duration": 8148,
           "attempts": [
             {
               "status": "passed",
               "retry": 0,
-              "startTime": "2026-09-10T12:57:15.934Z",
-              "duration": 1479
+              "startTime": "2026-09-23T10:20:30.199Z",
+              "duration": 8148
             }
           ],
           "orderIds": []
@@ -2411,15 +2384,15 @@
           "status": "passed",
           "flaky": false,
           "expectedStatus": "passed",
-          "startTime": "2026-09-10T12:57:16.602Z",
-          "runStart": "2026-09-10T12:54:34.782Z",
-          "duration": 1449,
+          "startTime": "2026-09-23T10:20:30.392Z",
+          "runStart": "2026-09-23T10:20:23.072Z",
+          "duration": 7699,
           "attempts": [
             {
               "status": "passed",
               "retry": 0,
-              "startTime": "2026-09-10T12:57:16.602Z",
-              "duration": 1449
+              "startTime": "2026-09-23T10:20:30.392Z",
+              "duration": 7699
             }
           ],
           "orderIds": []
@@ -2438,15 +2411,15 @@
           "status": "passed",
           "flaky": false,
           "expectedStatus": "passed",
-          "startTime": "2026-09-10T12:57:17.424Z",
-          "runStart": "2026-09-10T12:54:34.782Z",
-          "duration": 1888,
+          "startTime": "2026-09-23T10:20:35.386Z",
+          "runStart": "2026-09-23T10:20:23.072Z",
+          "duration": 5577,
           "attempts": [
             {
               "status": "passed",
               "retry": 0,
-              "startTime": "2026-09-10T12:57:17.424Z",
-              "duration": 1888
+              "startTime": "2026-09-23T10:20:35.386Z",
+              "duration": 5577
             }
           ],
           "orderIds": []
@@ -2465,15 +2438,15 @@
           "status": "passed",
           "flaky": false,
           "expectedStatus": "passed",
-          "startTime": "2026-09-10T12:57:18.063Z",
-          "runStart": "2026-09-10T12:54:34.782Z",
-          "duration": 1459,
+          "startTime": "2026-09-23T10:20:36.444Z",
+          "runStart": "2026-09-23T10:20:23.072Z",
+          "duration": 4305,
           "attempts": [
             {
               "status": "passed",
               "retry": 0,
-              "startTime": "2026-09-10T12:57:18.063Z",
-              "duration": 1459
+              "startTime": "2026-09-23T10:20:36.444Z",
+              "duration": 4305
             }
           ],
           "orderIds": []
@@ -2492,15 +2465,15 @@
           "status": "passed",
           "flaky": false,
           "expectedStatus": "passed",
-          "startTime": "2026-09-10T12:57:19.324Z",
-          "runStart": "2026-09-10T12:54:34.782Z",
-          "duration": 1599,
+          "startTime": "2026-09-23T10:20:38.720Z",
+          "runStart": "2026-09-23T10:20:23.072Z",
+          "duration": 4189,
           "attempts": [
             {
               "status": "passed",
               "retry": 0,
-              "startTime": "2026-09-10T12:57:19.324Z",
-              "duration": 1599
+              "startTime": "2026-09-23T10:20:38.720Z",
+              "duration": 4189
             }
           ],
           "orderIds": []
@@ -2519,15 +2492,15 @@
           "status": "passed",
           "flaky": false,
           "expectedStatus": "passed",
-          "startTime": "2026-09-10T12:57:19.533Z",
-          "runStart": "2026-09-10T12:54:34.782Z",
-          "duration": 1556,
+          "startTime": "2026-09-23T10:20:38.796Z",
+          "runStart": "2026-09-23T10:20:23.072Z",
+          "duration": 4200,
           "attempts": [
             {
               "status": "passed",
               "retry": 0,
-              "startTime": "2026-09-10T12:57:19.533Z",
-              "duration": 1556
+              "startTime": "2026-09-23T10:20:38.796Z",
+              "duration": 4200
             }
           ],
           "orderIds": []
@@ -2548,15 +2521,15 @@
           "status": "passed",
           "flaky": false,
           "expectedStatus": "passed",
-          "startTime": "2026-09-10T12:57:20.965Z",
-          "runStart": "2026-09-10T12:54:34.782Z",
-          "duration": 2859,
+          "startTime": "2026-09-23T10:20:38.922Z",
+          "runStart": "2026-09-23T10:20:23.072Z",
+          "duration": 4603,
           "attempts": [
             {
               "status": "passed",
               "retry": 0,
-              "startTime": "2026-09-10T12:57:20.965Z",
-              "duration": 2859
+              "startTime": "2026-09-23T10:20:38.922Z",
+              "duration": 4603
             }
           ],
           "orderIds": []
@@ -2575,14 +2548,14 @@
           "status": "skipped",
           "flaky": false,
           "expectedStatus": "skipped",
-          "startTime": "2026-09-10T12:57:21.102Z",
-          "runStart": "2026-09-10T12:54:34.782Z",
+          "startTime": "2026-09-23T10:20:39.119Z",
+          "runStart": "2026-09-23T10:20:23.072Z",
           "duration": 0,
           "attempts": [
             {
               "status": "skipped",
               "retry": 0,
-              "startTime": "2026-09-10T12:57:21.102Z",
+              "startTime": "2026-09-23T10:20:39.119Z",
               "duration": 0
             }
           ],
@@ -2602,14 +2575,14 @@
           "status": "skipped",
           "flaky": false,
           "expectedStatus": "skipped",
-          "startTime": "2026-09-10T12:57:21.102Z",
-          "runStart": "2026-09-10T12:54:34.782Z",
+          "startTime": "2026-09-23T10:20:39.120Z",
+          "runStart": "2026-09-23T10:20:23.072Z",
           "duration": 0,
           "attempts": [
             {
               "status": "skipped",
               "retry": 0,
-              "startTime": "2026-09-10T12:57:21.102Z",
+              "startTime": "2026-09-23T10:20:39.120Z",
               "duration": 0
             }
           ],
@@ -2629,15 +2602,15 @@
           "status": "passed",
           "flaky": false,
           "expectedStatus": "passed",
-          "startTime": "2026-09-10T12:57:21.131Z",
-          "runStart": "2026-09-10T12:54:34.782Z",
-          "duration": 922,
+          "startTime": "2026-09-23T10:20:39.167Z",
+          "runStart": "2026-09-23T10:20:23.072Z",
+          "duration": 2729,
           "attempts": [
             {
               "status": "passed",
               "retry": 0,
-              "startTime": "2026-09-10T12:57:21.131Z",
-              "duration": 922
+              "startTime": "2026-09-23T10:20:39.167Z",
+              "duration": 2729
             }
           ],
           "orderIds": []
@@ -2658,15 +2631,15 @@
           "status": "passed",
           "flaky": false,
           "expectedStatus": "passed",
-          "startTime": "2026-09-10T12:57:22.089Z",
-          "runStart": "2026-09-10T12:54:34.782Z",
-          "duration": 1722,
+          "startTime": "2026-09-23T10:20:40.793Z",
+          "runStart": "2026-09-23T10:20:23.072Z",
+          "duration": 3417,
           "attempts": [
             {
               "status": "passed",
               "retry": 0,
-              "startTime": "2026-09-10T12:57:22.089Z",
-              "duration": 1722
+              "startTime": "2026-09-23T10:20:40.793Z",
+              "duration": 3417
             }
           ],
           "orderIds": []
@@ -2685,15 +2658,15 @@
           "status": "passed",
           "flaky": false,
           "expectedStatus": "passed",
-          "startTime": "2026-09-10T12:57:23.822Z",
-          "runStart": "2026-09-10T12:54:34.782Z",
-          "duration": 1145,
+          "startTime": "2026-09-23T10:20:41.009Z",
+          "runStart": "2026-09-23T10:20:23.072Z",
+          "duration": 2512,
           "attempts": [
             {
               "status": "passed",
               "retry": 0,
-              "startTime": "2026-09-10T12:57:23.822Z",
-              "duration": 1145
+              "startTime": "2026-09-23T10:20:41.009Z",
+              "duration": 2512
             }
           ],
           "orderIds": []
@@ -2714,15 +2687,15 @@
           "status": "passed",
           "flaky": false,
           "expectedStatus": "passed",
-          "startTime": "2026-09-10T12:57:23.865Z",
-          "runStart": "2026-09-10T12:54:34.782Z",
-          "duration": 1789,
+          "startTime": "2026-09-23T10:20:41.776Z",
+          "runStart": "2026-09-23T10:20:23.072Z",
+          "duration": 3274,
           "attempts": [
             {
               "status": "passed",
               "retry": 0,
-              "startTime": "2026-09-10T12:57:23.865Z",
-              "duration": 1789
+              "startTime": "2026-09-23T10:20:41.776Z",
+              "duration": 3274
             }
           ],
           "orderIds": []
@@ -2741,15 +2714,15 @@
           "status": "passed",
           "flaky": false,
           "expectedStatus": "passed",
-          "startTime": "2026-09-10T12:57:25.020Z",
-          "runStart": "2026-09-10T12:54:34.782Z",
-          "duration": 1043,
+          "startTime": "2026-09-23T10:20:41.961Z",
+          "runStart": "2026-09-23T10:20:23.072Z",
+          "duration": 2718,
           "attempts": [
             {
               "status": "passed",
               "retry": 0,
-              "startTime": "2026-09-10T12:57:25.020Z",
-              "duration": 1043
+              "startTime": "2026-09-23T10:20:41.961Z",
+              "duration": 2718
             }
           ],
           "orderIds": []
@@ -2768,15 +2741,15 @@
           "status": "passed",
           "flaky": false,
           "expectedStatus": "passed",
-          "startTime": "2026-09-10T12:57:25.666Z",
-          "runStart": "2026-09-10T12:54:34.782Z",
-          "duration": 706,
+          "startTime": "2026-09-23T10:20:42.666Z",
+          "runStart": "2026-09-23T10:20:23.072Z",
+          "duration": 2572,
           "attempts": [
             {
               "status": "passed",
               "retry": 0,
-              "startTime": "2026-09-10T12:57:25.666Z",
-              "duration": 706
+              "startTime": "2026-09-23T10:20:42.666Z",
+              "duration": 2572
             }
           ],
           "orderIds": []
@@ -2797,15 +2770,15 @@
           "status": "passed",
           "flaky": false,
           "expectedStatus": "passed",
-          "startTime": "2026-09-10T12:57:26.100Z",
-          "runStart": "2026-09-10T12:54:34.782Z",
-          "duration": 849,
+          "startTime": "2026-09-23T10:20:42.688Z",
+          "runStart": "2026-09-23T10:20:23.072Z",
+          "duration": 2845,
           "attempts": [
             {
               "status": "passed",
               "retry": 0,
-              "startTime": "2026-09-10T12:57:26.100Z",
-              "duration": 849
+              "startTime": "2026-09-23T10:20:42.688Z",
+              "duration": 2845
             }
           ],
           "orderIds": []
@@ -2826,15 +2799,15 @@
           "status": "passed",
           "flaky": false,
           "expectedStatus": "passed",
-          "startTime": "2026-09-10T12:57:26.414Z",
-          "runStart": "2026-09-10T12:54:34.782Z",
-          "duration": 869,
+          "startTime": "2026-09-23T10:20:42.748Z",
+          "runStart": "2026-09-23T10:20:23.072Z",
+          "duration": 2864,
           "attempts": [
             {
               "status": "passed",
               "retry": 0,
-              "startTime": "2026-09-10T12:57:26.414Z",
-              "duration": 869
+              "startTime": "2026-09-23T10:20:42.748Z",
+              "duration": 2864
             }
           ],
           "orderIds": []
@@ -2853,15 +2826,15 @@
           "status": "passed",
           "flaky": false,
           "expectedStatus": "passed",
-          "startTime": "2026-09-10T12:57:26.997Z",
-          "runStart": "2026-09-10T12:54:34.782Z",
-          "duration": 1680,
+          "startTime": "2026-09-23T10:20:42.953Z",
+          "runStart": "2026-09-23T10:20:23.072Z",
+          "duration": 3802,
           "attempts": [
             {
               "status": "passed",
               "retry": 0,
-              "startTime": "2026-09-10T12:57:26.997Z",
-              "duration": 1680
+              "startTime": "2026-09-23T10:20:42.953Z",
+              "duration": 3802
             }
           ],
           "orderIds": []
@@ -2882,15 +2855,15 @@
           "status": "passed",
           "flaky": false,
           "expectedStatus": "passed",
-          "startTime": "2026-09-10T12:57:27.322Z",
-          "runStart": "2026-09-10T12:54:34.782Z",
-          "duration": 1114,
+          "startTime": "2026-09-23T10:20:43.045Z",
+          "runStart": "2026-09-23T10:20:23.072Z",
+          "duration": 3392,
           "attempts": [
             {
               "status": "passed",
               "retry": 0,
-              "startTime": "2026-09-10T12:57:27.322Z",
-              "duration": 1114
+              "startTime": "2026-09-23T10:20:43.045Z",
+              "duration": 3392
             }
           ],
           "orderIds": []
@@ -2909,15 +2882,15 @@
           "status": "passed",
           "flaky": false,
           "expectedStatus": "passed",
-          "startTime": "2026-09-10T12:57:28.448Z",
-          "runStart": "2026-09-10T12:54:34.782Z",
-          "duration": 1159,
+          "startTime": "2026-09-23T10:20:43.565Z",
+          "runStart": "2026-09-23T10:20:23.072Z",
+          "duration": 2902,
           "attempts": [
             {
               "status": "passed",
               "retry": 0,
-              "startTime": "2026-09-10T12:57:28.448Z",
-              "duration": 1159
+              "startTime": "2026-09-23T10:20:43.565Z",
+              "duration": 2902
             }
           ],
           "orderIds": []
@@ -2936,15 +2909,15 @@
           "status": "passed",
           "flaky": false,
           "expectedStatus": "passed",
-          "startTime": "2026-09-10T12:57:28.718Z",
-          "runStart": "2026-09-10T12:54:34.782Z",
-          "duration": 1175,
+          "startTime": "2026-09-23T10:20:43.580Z",
+          "runStart": "2026-09-23T10:20:23.072Z",
+          "duration": 3083,
           "attempts": [
             {
               "status": "passed",
               "retry": 0,
-              "startTime": "2026-09-10T12:57:28.718Z",
-              "duration": 1175
+              "startTime": "2026-09-23T10:20:43.580Z",
+              "duration": 3083
             }
           ],
           "orderIds": []
@@ -4481,6 +4454,762 @@
       "category": "wizards",
       "file": "order-tradlost-business-cancel",
       "legacy": true
+    },
+    {
+      "path": "smoke/activity-log.spec.ts",
+      "category": "smoke",
+      "file": "activity-log",
+      "id": "[\"smoke/activity-log.spec.ts\",\"chromium-authenticated\",[\"Smoke — kundelogg\",\"aktivitetslogg for test-kunden rendres med opprett-seksjon\"]]",
+      "project": "chromium-authenticated",
+      "titles": [
+        "Smoke — kundelogg",
+        "aktivitetslogg for test-kunden rendres med opprett-seksjon"
+      ],
+      "name": "aktivitetslogg for test-kunden rendres med opprett-seksjon",
+      "status": "passed",
+      "flaky": false,
+      "expectedStatus": "passed",
+      "startTime": "2026-09-10T12:57:00.781Z",
+      "runStart": "2026-09-10T12:54:34.782Z",
+      "duration": 1824,
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "startTime": "2026-09-10T12:57:00.781Z",
+          "duration": 1824
+        }
+      ],
+      "orderIds": []
+    },
+    {
+      "path": "smoke/advanced-search.spec.ts",
+      "category": "smoke",
+      "file": "advanced-search",
+      "id": "[\"smoke/advanced-search.spec.ts\",\"chromium-authenticated\",[\"Smoke — avansert kunde-søk\",\"Header-søk med alfabetisk input åpner avansert-skjema med forventede felter\"]]",
+      "project": "chromium-authenticated",
+      "titles": [
+        "Smoke — avansert kunde-søk",
+        "Header-søk med alfabetisk input åpner avansert-skjema med forventede felter"
+      ],
+      "name": "Header-søk med alfabetisk input åpner avansert-skjema med forventede felter",
+      "status": "passed",
+      "flaky": false,
+      "expectedStatus": "passed",
+      "startTime": "2026-09-10T12:57:01.237Z",
+      "runStart": "2026-09-10T12:54:34.782Z",
+      "duration": 1081,
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "startTime": "2026-09-10T12:57:01.237Z",
+          "duration": 1081
+        }
+      ],
+      "orderIds": []
+    },
+    {
+      "path": "smoke/api-health.spec.ts",
+      "category": "smoke",
+      "file": "api-health",
+      "id": "[\"smoke/api-health.spec.ts\",\"chromium-authenticated\",[\"Smoke — API-health for kunde-flyten\",\"kjerne-API-er svarer 2xx under customer-flow\"]]",
+      "project": "chromium-authenticated",
+      "titles": [
+        "Smoke — API-health for kunde-flyten",
+        "kjerne-API-er svarer 2xx under customer-flow"
+      ],
+      "name": "kjerne-API-er svarer 2xx under customer-flow",
+      "status": "passed",
+      "flaky": false,
+      "expectedStatus": "passed",
+      "startTime": "2026-09-10T12:57:02.347Z",
+      "runStart": "2026-09-10T12:54:34.782Z",
+      "duration": 6316,
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "startTime": "2026-09-10T12:57:02.347Z",
+          "duration": 6316
+        }
+      ],
+      "orderIds": []
+    },
+    {
+      "path": "smoke/bestill-broadband-entry.spec.ts",
+      "category": "smoke",
+      "file": "bestill-broadband-entry",
+      "id": "[\"smoke/bestill-broadband-entry.spec.ts\",\"chromium-authenticated\",[\"Smoke — Bestill bredbånd entry-point\",\"Sidebar-knapp navigerer til katalog-side med begge produkt-kort\"]]",
+      "project": "chromium-authenticated",
+      "titles": [
+        "Smoke — Bestill bredbånd entry-point",
+        "Sidebar-knapp navigerer til katalog-side med begge produkt-kort"
+      ],
+      "name": "Sidebar-knapp navigerer til katalog-side med begge produkt-kort",
+      "status": "passed",
+      "flaky": false,
+      "expectedStatus": "passed",
+      "startTime": "2026-09-10T12:57:02.661Z",
+      "runStart": "2026-09-10T12:54:34.782Z",
+      "duration": 1885,
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "startTime": "2026-09-10T12:57:02.661Z",
+          "duration": 1885
+        }
+      ],
+      "orderIds": []
+    },
+    {
+      "path": "smoke/change-order-entry-points.spec.ts",
+      "category": "smoke",
+      "file": "change-order-entry-points",
+      "id": "[\"smoke/change-order-entry-points.spec.ts\",\"chromium-authenticated\",[\"Smoke — change-order entry-points\",\"\\\"Endre tilleggstjenester\\\" router til ChangeOrderBroadbandBusinessWizard\"]]",
+      "project": "chromium-authenticated",
+      "titles": [
+        "Smoke — change-order entry-points",
+        "\"Endre tilleggstjenester\" router til ChangeOrderBroadbandBusinessWizard"
+      ],
+      "name": "\"Endre tilleggstjenester\" router til ChangeOrderBroadbandBusinessWizard",
+      "status": "passed",
+      "flaky": false,
+      "expectedStatus": "passed",
+      "startTime": "2026-09-10T12:57:08.697Z",
+      "runStart": "2026-09-10T12:54:34.782Z",
+      "duration": 4212,
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "startTime": "2026-09-10T12:57:08.697Z",
+          "duration": 4212
+        }
+      ],
+      "orderIds": []
+    },
+    {
+      "path": "smoke/change-order-entry-points.spec.ts",
+      "category": "smoke",
+      "file": "change-order-entry-points",
+      "id": "[\"smoke/change-order-entry-points.spec.ts\",\"chromium-authenticated\",[\"Smoke — change-order entry-points\",\"\\\"Endre abonnement\\\" router til speed+addons-wizard\"]]",
+      "project": "chromium-authenticated",
+      "titles": [
+        "Smoke — change-order entry-points",
+        "\"Endre abonnement\" router til speed+addons-wizard"
+      ],
+      "name": "\"Endre abonnement\" router til speed+addons-wizard",
+      "status": "passed",
+      "flaky": false,
+      "expectedStatus": "passed",
+      "startTime": "2026-09-10T12:57:09.672Z",
+      "runStart": "2026-09-10T12:54:34.782Z",
+      "duration": 4173,
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "startTime": "2026-09-10T12:57:09.672Z",
+          "duration": 4173
+        }
+      ],
+      "orderIds": []
+    },
+    {
+      "path": "smoke/customer-overview.spec.ts",
+      "category": "smoke",
+      "file": "customer-overview",
+      "id": "[\"smoke/customer-overview.spec.ts\",\"chromium-authenticated\",[\"Smoke — kunde-oversikt\",\"test-kunden rendres med header og søkefelt\"]]",
+      "project": "chromium-authenticated",
+      "titles": [
+        "Smoke — kunde-oversikt",
+        "test-kunden rendres med header og søkefelt"
+      ],
+      "name": "test-kunden rendres med header og søkefelt",
+      "status": "passed",
+      "flaky": false,
+      "expectedStatus": "passed",
+      "startTime": "2026-09-10T12:57:13.884Z",
+      "runStart": "2026-09-10T12:54:34.782Z",
+      "duration": 1987,
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "startTime": "2026-09-10T12:57:13.884Z",
+          "duration": 1987
+        }
+      ],
+      "orderIds": []
+    },
+    {
+      "path": "smoke/customer-routes.spec.ts",
+      "category": "smoke",
+      "file": "customer-routes",
+      "id": "[\"smoke/customer-routes.spec.ts\",\"chromium-authenticated\",[\"Smoke — kunde-scoped ruter (matrix)\",\"smoke /accounts\"]]",
+      "project": "chromium-authenticated",
+      "titles": [
+        "Smoke — kunde-scoped ruter (matrix)",
+        "smoke /accounts"
+      ],
+      "name": "smoke /accounts",
+      "status": "passed",
+      "flaky": false,
+      "expectedStatus": "passed",
+      "startTime": "2026-09-10T12:57:15.934Z",
+      "runStart": "2026-09-10T12:54:34.782Z",
+      "duration": 1479,
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "startTime": "2026-09-10T12:57:15.934Z",
+          "duration": 1479
+        }
+      ],
+      "orderIds": []
+    },
+    {
+      "path": "smoke/customer-routes.spec.ts",
+      "category": "smoke",
+      "file": "customer-routes",
+      "id": "[\"smoke/customer-routes.spec.ts\",\"chromium-authenticated\",[\"Smoke — kunde-scoped ruter (matrix)\",\"smoke /agreements\"]]",
+      "project": "chromium-authenticated",
+      "titles": [
+        "Smoke — kunde-scoped ruter (matrix)",
+        "smoke /agreements"
+      ],
+      "name": "smoke /agreements",
+      "status": "passed",
+      "flaky": false,
+      "expectedStatus": "passed",
+      "startTime": "2026-09-10T12:57:16.602Z",
+      "runStart": "2026-09-10T12:54:34.782Z",
+      "duration": 1449,
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "startTime": "2026-09-10T12:57:16.602Z",
+          "duration": 1449
+        }
+      ],
+      "orderIds": []
+    },
+    {
+      "path": "smoke/customer-routes.spec.ts",
+      "category": "smoke",
+      "file": "customer-routes",
+      "id": "[\"smoke/customer-routes.spec.ts\",\"chromium-authenticated\",[\"Smoke — kunde-scoped ruter (matrix)\",\"smoke /terminated-subscriptions\"]]",
+      "project": "chromium-authenticated",
+      "titles": [
+        "Smoke — kunde-scoped ruter (matrix)",
+        "smoke /terminated-subscriptions"
+      ],
+      "name": "smoke /terminated-subscriptions",
+      "status": "passed",
+      "flaky": false,
+      "expectedStatus": "passed",
+      "startTime": "2026-09-10T12:57:17.424Z",
+      "runStart": "2026-09-10T12:54:34.782Z",
+      "duration": 1888,
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "startTime": "2026-09-10T12:57:17.424Z",
+          "duration": 1888
+        }
+      ],
+      "orderIds": []
+    },
+    {
+      "path": "smoke/customer-routes.spec.ts",
+      "category": "smoke",
+      "file": "customer-routes",
+      "id": "[\"smoke/customer-routes.spec.ts\",\"chromium-authenticated\",[\"Smoke — kunde-scoped ruter (matrix)\",\"smoke /invoices-business\"]]",
+      "project": "chromium-authenticated",
+      "titles": [
+        "Smoke — kunde-scoped ruter (matrix)",
+        "smoke /invoices-business"
+      ],
+      "name": "smoke /invoices-business",
+      "status": "passed",
+      "flaky": false,
+      "expectedStatus": "passed",
+      "startTime": "2026-09-10T12:57:18.063Z",
+      "runStart": "2026-09-10T12:54:34.782Z",
+      "duration": 1459,
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "startTime": "2026-09-10T12:57:18.063Z",
+          "duration": 1459
+        }
+      ],
+      "orderIds": []
+    },
+    {
+      "path": "smoke/customer-routes.spec.ts",
+      "category": "smoke",
+      "file": "customer-routes",
+      "id": "[\"smoke/customer-routes.spec.ts\",\"chromium-authenticated\",[\"Smoke — kunde-scoped ruter (matrix)\",\"smoke /order-search-business\"]]",
+      "project": "chromium-authenticated",
+      "titles": [
+        "Smoke — kunde-scoped ruter (matrix)",
+        "smoke /order-search-business"
+      ],
+      "name": "smoke /order-search-business",
+      "status": "passed",
+      "flaky": false,
+      "expectedStatus": "passed",
+      "startTime": "2026-09-10T12:57:19.324Z",
+      "runStart": "2026-09-10T12:54:34.782Z",
+      "duration": 1599,
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "startTime": "2026-09-10T12:57:19.324Z",
+          "duration": 1599
+        }
+      ],
+      "orderIds": []
+    },
+    {
+      "path": "smoke/customer-routes.spec.ts",
+      "category": "smoke",
+      "file": "customer-routes",
+      "id": "[\"smoke/customer-routes.spec.ts\",\"chromium-authenticated\",[\"Smoke — kunde-scoped ruter (matrix)\",\"smoke /sms-business\"]]",
+      "project": "chromium-authenticated",
+      "titles": [
+        "Smoke — kunde-scoped ruter (matrix)",
+        "smoke /sms-business"
+      ],
+      "name": "smoke /sms-business",
+      "status": "passed",
+      "flaky": false,
+      "expectedStatus": "passed",
+      "startTime": "2026-09-10T12:57:19.533Z",
+      "runStart": "2026-09-10T12:54:34.782Z",
+      "duration": 1556,
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "startTime": "2026-09-10T12:57:19.533Z",
+          "duration": 1556
+        }
+      ],
+      "orderIds": []
+    },
+    {
+      "path": "smoke/customer-search-edge.spec.ts",
+      "category": "smoke",
+      "file": "customer-search-edge",
+      "id": "[\"smoke/customer-search-edge.spec.ts\",\"chromium-authenticated\",[\"Smoke — header search edge cases\",\"tomt søk sender ikke request\"]]",
+      "project": "chromium-authenticated",
+      "titles": [
+        "Smoke — header search edge cases",
+        "tomt søk sender ikke request"
+      ],
+      "name": "tomt søk sender ikke request",
+      "status": "passed",
+      "flaky": false,
+      "expectedStatus": "passed",
+      "startTime": "2026-09-10T12:57:20.965Z",
+      "runStart": "2026-09-10T12:54:34.782Z",
+      "duration": 2859,
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "startTime": "2026-09-10T12:57:20.965Z",
+          "duration": 2859
+        }
+      ],
+      "orderIds": []
+    },
+    {
+      "path": "smoke/customer-search-edge.spec.ts",
+      "category": "smoke",
+      "file": "customer-search-edge",
+      "id": "[\"smoke/customer-search-edge.spec.ts\",\"chromium-authenticated\",[\"Smoke — header search edge cases\",\"kun whitespace sender ikke request\"]]",
+      "project": "chromium-authenticated",
+      "titles": [
+        "Smoke — header search edge cases",
+        "kun whitespace sender ikke request"
+      ],
+      "name": "kun whitespace sender ikke request",
+      "status": "skipped",
+      "flaky": false,
+      "expectedStatus": "skipped",
+      "startTime": "2026-09-10T12:57:21.102Z",
+      "runStart": "2026-09-10T12:54:34.782Z",
+      "duration": 0,
+      "attempts": [
+        {
+          "status": "skipped",
+          "retry": 0,
+          "startTime": "2026-09-10T12:57:21.102Z",
+          "duration": 0
+        }
+      ],
+      "orderIds": []
+    },
+    {
+      "path": "smoke/customer-search-edge.spec.ts",
+      "category": "smoke",
+      "file": "customer-search-edge",
+      "id": "[\"smoke/customer-search-edge.spec.ts\",\"chromium-authenticated\",[\"Smoke — header search edge cases\",\"no-results viser \\\"Ingen treff\\\" i søkeresultatet\"]]",
+      "project": "chromium-authenticated",
+      "titles": [
+        "Smoke — header search edge cases",
+        "no-results viser \"Ingen treff\" i søkeresultatet"
+      ],
+      "name": "no-results viser \"Ingen treff\" i søkeresultatet",
+      "status": "skipped",
+      "flaky": false,
+      "expectedStatus": "skipped",
+      "startTime": "2026-09-10T12:57:21.102Z",
+      "runStart": "2026-09-10T12:54:34.782Z",
+      "duration": 0,
+      "attempts": [
+        {
+          "status": "skipped",
+          "retry": 0,
+          "startTime": "2026-09-10T12:57:21.102Z",
+          "duration": 0
+        }
+      ],
+      "orderIds": []
+    },
+    {
+      "path": "smoke/customer-search-edge.spec.ts",
+      "category": "smoke",
+      "file": "customer-search-edge",
+      "id": "[\"smoke/customer-search-edge.spec.ts\",\"chromium-authenticated\",[\"Smoke — header search edge cases\",\"spesialtegn i input krasjer ikke siden\"]]",
+      "project": "chromium-authenticated",
+      "titles": [
+        "Smoke — header search edge cases",
+        "spesialtegn i input krasjer ikke siden"
+      ],
+      "name": "spesialtegn i input krasjer ikke siden",
+      "status": "passed",
+      "flaky": false,
+      "expectedStatus": "passed",
+      "startTime": "2026-09-10T12:57:21.131Z",
+      "runStart": "2026-09-10T12:54:34.782Z",
+      "duration": 922,
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "startTime": "2026-09-10T12:57:21.131Z",
+          "duration": 922
+        }
+      ],
+      "orderIds": []
+    },
+    {
+      "path": "smoke/customer-search-happy.spec.ts",
+      "category": "smoke",
+      "file": "customer-search-happy",
+      "id": "[\"smoke/customer-search-happy.spec.ts\",\"chromium-authenticated\",[\"Smoke — customer search (happy path)\",\"numerisk KID-søk navigerer til riktig kunde\"]]",
+      "project": "chromium-authenticated",
+      "titles": [
+        "Smoke — customer search (happy path)",
+        "numerisk KID-søk navigerer til riktig kunde"
+      ],
+      "name": "numerisk KID-søk navigerer til riktig kunde",
+      "status": "passed",
+      "flaky": false,
+      "expectedStatus": "passed",
+      "startTime": "2026-09-10T12:57:22.089Z",
+      "runStart": "2026-09-10T12:54:34.782Z",
+      "duration": 1722,
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "startTime": "2026-09-10T12:57:22.089Z",
+          "duration": 1722
+        }
+      ],
+      "orderIds": []
+    },
+    {
+      "path": "smoke/customer-search-happy.spec.ts",
+      "category": "smoke",
+      "file": "customer-search-happy",
+      "id": "[\"smoke/customer-search-happy.spec.ts\",\"chromium-authenticated\",[\"Smoke — customer search (happy path)\",\"alfabetisk søk åpner avansert søkeskjema\"]]",
+      "project": "chromium-authenticated",
+      "titles": [
+        "Smoke — customer search (happy path)",
+        "alfabetisk søk åpner avansert søkeskjema"
+      ],
+      "name": "alfabetisk søk åpner avansert søkeskjema",
+      "status": "passed",
+      "flaky": false,
+      "expectedStatus": "passed",
+      "startTime": "2026-09-10T12:57:23.822Z",
+      "runStart": "2026-09-10T12:54:34.782Z",
+      "duration": 1145,
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "startTime": "2026-09-10T12:57:23.822Z",
+          "duration": 1145
+        }
+      ],
+      "orderIds": []
+    },
+    {
+      "path": "smoke/deep-link.spec.ts",
+      "category": "smoke",
+      "file": "deep-link",
+      "id": "[\"smoke/deep-link.spec.ts\",\"chromium-authenticated\",[\"Smoke — deep-link\",\"gyldig deep-link åpner kundens overview\"]]",
+      "project": "chromium-authenticated",
+      "titles": [
+        "Smoke — deep-link",
+        "gyldig deep-link åpner kundens overview"
+      ],
+      "name": "gyldig deep-link åpner kundens overview",
+      "status": "passed",
+      "flaky": false,
+      "expectedStatus": "passed",
+      "startTime": "2026-09-10T12:57:23.865Z",
+      "runStart": "2026-09-10T12:54:34.782Z",
+      "duration": 1789,
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "startTime": "2026-09-10T12:57:23.865Z",
+          "duration": 1789
+        }
+      ],
+      "orderIds": []
+    },
+    {
+      "path": "smoke/deep-link.spec.ts",
+      "category": "smoke",
+      "file": "deep-link",
+      "id": "[\"smoke/deep-link.spec.ts\",\"chromium-authenticated\",[\"Smoke — deep-link\",\"ugyldig hash redirecter til Fallback (NotFound)\"]]",
+      "project": "chromium-authenticated",
+      "titles": [
+        "Smoke — deep-link",
+        "ugyldig hash redirecter til Fallback (NotFound)"
+      ],
+      "name": "ugyldig hash redirecter til Fallback (NotFound)",
+      "status": "passed",
+      "flaky": false,
+      "expectedStatus": "passed",
+      "startTime": "2026-09-10T12:57:25.020Z",
+      "runStart": "2026-09-10T12:54:34.782Z",
+      "duration": 1043,
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "startTime": "2026-09-10T12:57:25.020Z",
+          "duration": 1043
+        }
+      ],
+      "orderIds": []
+    },
+    {
+      "path": "smoke/deep-link.spec.ts",
+      "category": "smoke",
+      "file": "deep-link",
+      "id": "[\"smoke/deep-link.spec.ts\",\"chromium-authenticated\",[\"Smoke — deep-link\",\"type-mismatch (consumer URL med business-hash) redirecter til NoCustomer\"]]",
+      "project": "chromium-authenticated",
+      "titles": [
+        "Smoke — deep-link",
+        "type-mismatch (consumer URL med business-hash) redirecter til NoCustomer"
+      ],
+      "name": "type-mismatch (consumer URL med business-hash) redirecter til NoCustomer",
+      "status": "passed",
+      "flaky": false,
+      "expectedStatus": "passed",
+      "startTime": "2026-09-10T12:57:25.666Z",
+      "runStart": "2026-09-10T12:54:34.782Z",
+      "duration": 706,
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "startTime": "2026-09-10T12:57:25.666Z",
+          "duration": 706
+        }
+      ],
+      "orderIds": []
+    },
+    {
+      "path": "smoke/home.spec.ts",
+      "category": "smoke",
+      "file": "home",
+      "id": "[\"smoke/home.spec.ts\",\"chromium-authenticated\",[\"Smoke — applikasjonen laster innlogget\",\"forsiden rendres med autentisert header\"]]",
+      "project": "chromium-authenticated",
+      "titles": [
+        "Smoke — applikasjonen laster innlogget",
+        "forsiden rendres med autentisert header"
+      ],
+      "name": "forsiden rendres med autentisert header",
+      "status": "passed",
+      "flaky": false,
+      "expectedStatus": "passed",
+      "startTime": "2026-09-10T12:57:26.100Z",
+      "runStart": "2026-09-10T12:54:34.782Z",
+      "duration": 849,
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "startTime": "2026-09-10T12:57:26.100Z",
+          "duration": 849
+        }
+      ],
+      "orderIds": []
+    },
+    {
+      "path": "smoke/performance-baseline.spec.ts",
+      "category": "smoke",
+      "file": "performance-baseline",
+      "id": "[\"smoke/performance-baseline.spec.ts\",\"chromium-authenticated\",[\"Smoke — performance baseline\",\"forsiden laster innen rimelig tid\"]]",
+      "project": "chromium-authenticated",
+      "titles": [
+        "Smoke — performance baseline",
+        "forsiden laster innen rimelig tid"
+      ],
+      "name": "forsiden laster innen rimelig tid",
+      "status": "passed",
+      "flaky": false,
+      "expectedStatus": "passed",
+      "startTime": "2026-09-10T12:57:26.414Z",
+      "runStart": "2026-09-10T12:54:34.782Z",
+      "duration": 869,
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "startTime": "2026-09-10T12:57:26.414Z",
+          "duration": 869
+        }
+      ],
+      "orderIds": []
+    },
+    {
+      "path": "smoke/performance-baseline.spec.ts",
+      "category": "smoke",
+      "file": "performance-baseline",
+      "id": "[\"smoke/performance-baseline.spec.ts\",\"chromium-authenticated\",[\"Smoke — performance baseline\",\"kunde-oversikt laster innen rimelig tid\"]]",
+      "project": "chromium-authenticated",
+      "titles": [
+        "Smoke — performance baseline",
+        "kunde-oversikt laster innen rimelig tid"
+      ],
+      "name": "kunde-oversikt laster innen rimelig tid",
+      "status": "passed",
+      "flaky": false,
+      "expectedStatus": "passed",
+      "startTime": "2026-09-10T12:57:26.997Z",
+      "runStart": "2026-09-10T12:54:34.782Z",
+      "duration": 1680,
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "startTime": "2026-09-10T12:57:26.997Z",
+          "duration": 1680
+        }
+      ],
+      "orderIds": []
+    },
+    {
+      "path": "smoke/top-level-routes.spec.ts",
+      "category": "smoke",
+      "file": "top-level-routes",
+      "id": "[\"smoke/top-level-routes.spec.ts\",\"chromium-authenticated\",[\"Smoke — top-level ruter (matrix)\",\"smoke /serviceorders\"]]",
+      "project": "chromium-authenticated",
+      "titles": [
+        "Smoke — top-level ruter (matrix)",
+        "smoke /serviceorders"
+      ],
+      "name": "smoke /serviceorders",
+      "status": "passed",
+      "flaky": false,
+      "expectedStatus": "passed",
+      "startTime": "2026-09-10T12:57:27.322Z",
+      "runStart": "2026-09-10T12:54:34.782Z",
+      "duration": 1114,
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "startTime": "2026-09-10T12:57:27.322Z",
+          "duration": 1114
+        }
+      ],
+      "orderIds": []
+    },
+    {
+      "path": "smoke/top-level-routes.spec.ts",
+      "category": "smoke",
+      "file": "top-level-routes",
+      "id": "[\"smoke/top-level-routes.spec.ts\",\"chromium-authenticated\",[\"Smoke — top-level ruter (matrix)\",\"smoke /device-pickup\"]]",
+      "project": "chromium-authenticated",
+      "titles": [
+        "Smoke — top-level ruter (matrix)",
+        "smoke /device-pickup"
+      ],
+      "name": "smoke /device-pickup",
+      "status": "passed",
+      "flaky": false,
+      "expectedStatus": "passed",
+      "startTime": "2026-09-10T12:57:28.448Z",
+      "runStart": "2026-09-10T12:54:34.782Z",
+      "duration": 1159,
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "startTime": "2026-09-10T12:57:28.448Z",
+          "duration": 1159
+        }
+      ],
+      "orderIds": []
+    },
+    {
+      "path": "smoke/top-level-routes.spec.ts",
+      "category": "smoke",
+      "file": "top-level-routes",
+      "id": "[\"smoke/top-level-routes.spec.ts\",\"chromium-authenticated\",[\"Smoke — top-level ruter (matrix)\",\"smoke /port-number-series\"]]",
+      "project": "chromium-authenticated",
+      "titles": [
+        "Smoke — top-level ruter (matrix)",
+        "smoke /port-number-series"
+      ],
+      "name": "smoke /port-number-series",
+      "status": "passed",
+      "flaky": false,
+      "expectedStatus": "passed",
+      "startTime": "2026-09-10T12:57:28.718Z",
+      "runStart": "2026-09-10T12:54:34.782Z",
+      "duration": 1175,
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "startTime": "2026-09-10T12:57:28.718Z",
+          "duration": 1175
+        }
+      ],
+      "orderIds": []
     }
   ],
   "retired": [
@@ -4600,10 +5329,66 @@
       "category": "wizards",
       "file": "order-broadband-utbygging",
       "reason": "not-in-catalog"
+    },
+    {
+      "path": "smoke/change-order-entry-points.spec.ts",
+      "category": "smoke",
+      "file": "change-order-entry-points",
+      "id": "[\"smoke/change-order-entry-points.spec.ts\",\"chromium-authenticated\",[\"Smoke — change-order entry-points\",\"\\\"Bestill endring\\\"-popup viser 3 entry-knapper\"]]",
+      "project": "chromium-authenticated",
+      "titles": [
+        "Smoke — change-order entry-points",
+        "\"Bestill endring\"-popup viser 3 entry-knapper"
+      ],
+      "name": "\"Bestill endring\"-popup viser 3 entry-knapper",
+      "status": "passed",
+      "flaky": false,
+      "expectedStatus": "passed",
+      "startTime": "2026-09-10T12:57:04.600Z",
+      "runStart": "2026-09-10T12:54:34.782Z",
+      "duration": 5060,
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "startTime": "2026-09-10T12:57:04.600Z",
+          "duration": 5060
+        }
+      ],
+      "orderIds": [],
+      "reason": "not-in-catalog"
+    },
+    {
+      "path": "smoke/change-order-entry-points.spec.ts",
+      "category": "smoke",
+      "file": "change-order-entry-points",
+      "id": "[\"smoke/change-order-entry-points.spec.ts\",\"chromium-authenticated\",[\"Smoke — change-order entry-points\",\"\\\"Endre hastighet\\\" router til hastighets-wizard\"]]",
+      "project": "chromium-authenticated",
+      "titles": [
+        "Smoke — change-order entry-points",
+        "\"Endre hastighet\" router til hastighets-wizard"
+      ],
+      "name": "\"Endre hastighet\" router til hastighets-wizard",
+      "status": "passed",
+      "flaky": false,
+      "expectedStatus": "passed",
+      "startTime": "2026-09-10T12:57:12.921Z",
+      "runStart": "2026-09-10T12:54:34.782Z",
+      "duration": 3636,
+      "attempts": [
+        {
+          "status": "passed",
+          "retry": 0,
+          "startTime": "2026-09-10T12:57:12.921Z",
+          "duration": 3636
+        }
+      ],
+      "orderIds": [],
+      "reason": "not-in-catalog"
     }
   ],
   "lastImportedRun": {
-    "startTime": "2026-09-10T12:54:34.782Z",
-    "tests": 86
+    "startTime": "2026-09-23T10:20:23.072Z",
+    "tests": 29
   }
 }

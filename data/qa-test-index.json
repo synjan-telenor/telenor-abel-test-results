@@ -82,8 +82,23 @@
     "capture-traces": [
       "Trace-capture — wizard-flyt fra start til Steg 11 (Avbryt)"
     ],
+    "cart-agreement": [
+      "Ny kurv med business avtale — STAGE=discover"
+    ],
+    "cart-mobile": [
+      "Business mobil i ny kurv — STAGE=discover"
+    ],
+    "cart-with-order": [
+      "Ny kurv med business fiber-ordre — inspiser rendering (ingen bestilling)"
+    ],
+    "clear-cart": [
+      "Tøm den nye kurven for testkunde"
+    ],
     "dump-response-headers": [
       "Dump headers fra OneView API-responser"
+    ],
+    "explore-new-cart": [
+      "Utforsk ny handlekurv — Fiber til Oppsummering (ingen ordre)"
     ],
     "find-free-subscription": [
       "Finn fri TBB-subscription — sjekk wifi-steget grundig"
@@ -99,6 +114,9 @@
     ],
     "inject-traceparent": [
       "Inject traceparent — verifiser at OneView propagerer til Tempo"
+    ],
+    "inspect-new-cart": [
+      "Inspiser ny handlekurv — /checkout for testkunde (ikke-destruktivt)"
     ],
     "list-subscriptions": [
       "Liste abonnementer på test-kunden"
@@ -390,7 +408,7 @@
       "Open redirect — kan ekstern URL injeksjon i query-param trigge redirect?"
     ],
     "property-based-fuzz": [
-      "Property-based fuzz — 50 tilfeldige payloads (seed=20260910)"
+      "Property-based fuzz — 50 tilfeldige payloads (seed=20260923)"
     ],
     "race-conditions": [
       "Race — 10 parallelle validate-kall returnerer deterministisk",
@@ -432,9 +450,8 @@
       "Sidebar-knapp navigerer til katalog-side med begge produkt-kort"
     ],
     "change-order-entry-points": [
-      "\"Bestill endring\"-popup viser 3 entry-knapper",
+      "\"Bestill endring\"-popup viser 2 entry-knapper",
       "\"Endre abonnement\" router til speed+addons-wizard",
-      "\"Endre hastighet\" router til hastighets-wizard",
       "\"Endre tilleggstjenester\" router til ChangeOrderBroadbandBusinessWizard"
     ],
     "customer-overview": [
